@@ -1,0 +1,22 @@
+$silver: #C0C0C0;
+$indianred: #CD5C5C;
+$salmon: #FA8072;
+$lightsalmon: #FFA07A;
+$darksalmon: #E9967A;
+$content-color: #2c3e50;
+
+@import "~flexboxgrid-sass";
+
+$flexboxgrid-grid-columns: 14;
+$flexboxgrid-breakpoints:
+  sm 760px,
+  md 1200px,
+  lg 1600px;
+
+.inline-block {
+	display: inline-block;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+	display: none;
+}
