@@ -2,6 +2,10 @@
 	text-align: left;
 	padding: 10px 240px 10px 20px;
 
+	@media #{$mobile} {
+		padding: 10px 30px;
+	}
+
 	&__title {
 		font-size: 28px;
 		font-weight: 600;
@@ -14,7 +18,8 @@
 	}
 
 	&__date {
-		opacity: 0.5;
+		font-weight: bold;
+		color: $silver;
 	}
 
 	&__content {
@@ -46,7 +51,8 @@
     }
 
 	&__annotation {
-		opacity: 0.5;
+		font-weight: bold;
+		color: $silver;
 	    font-size: 16px;
 	    text-align: center;
 	    padding: 10px 0;
@@ -73,7 +79,8 @@
 	}
 
 	&__annotation {
-		opacity: 0.5;
+		font-weight: bold;
+		color: $silver;
 	    font-size: 16px;
 	    text-align: center;
 	    padding: 10px 0;
@@ -117,7 +124,8 @@
 
 
 	&__annotation {
-		opacity: 0.5;
+		font-weight: bold;
+		color: $silver;
 	    font-size: 16px;
 	    text-align: center;
 	    padding: 10px 0;

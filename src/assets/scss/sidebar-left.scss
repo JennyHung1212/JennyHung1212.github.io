@@ -1,8 +1,15 @@
 .sidebar-left {
 	padding: 10px;
+	@media #{$mobile} {
+		padding-top: 25px;
+	}
 
 	&__title {
 		text-align: right;
+		@media #{$mobile} {
+			text-align: center;
+		}
+
 		img {
 			width: 300px;
 		}

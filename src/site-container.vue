@@ -23,20 +23,28 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $content-color;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 .header-container {
-  height: 60px;
+  background-color: white;
+  height: 70px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   text-align: right;
+  @media #{$mobile} {
+    text-align: center;
+  }
 
   img {
     height: 50px;
     margin-right: 50px;
     margin-top: 15px;
+
+    @media #{$mobile} {
+      margin-right: 0;
+    }
   }
 }
 
