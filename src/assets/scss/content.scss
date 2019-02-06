@@ -44,6 +44,11 @@
 	    overflow-x: hidden;
 	    overflow-y: hidden;
 	    margin: auto;
+
+	    @media #{$mobile} {
+	    	width: 100%;
+	    	height: auto;
+	    }
 	}
 
 	img {
@@ -65,6 +70,12 @@
 	    height: 300px;
 	    overflow-y: hidden;
 	    margin-right: 10px;
+
+	    @media #{$mobile} {
+	    	width: 50%;
+	    	height: auto;
+	    	margin-left: -1.5%;
+	    }
 	}
 
 	&__frame2 {
@@ -72,6 +83,11 @@
 	    height: 300px;
 	    overflow-y: hidden;
 	    margin-right: -15%;
+
+	    @media #{$mobile} {
+	    	width: 50%;
+	    	height: auto;
+	    }
 	}
 
 	img {
@@ -95,6 +111,11 @@
 		height: 530px;
 		margin-right: 10px;
 
+	    @media #{$mobile} {
+	    	width: 150px;
+	    	height: 250px;
+	    }
+
 		img {
 			height: 100%;
 		}
@@ -106,6 +127,11 @@
 		height: 260px;
 		margin-bottom: 10px;
 		
+	    @media #{$mobile} {
+	    	width: 160px;
+	    	height: 120px;
+	    }
+
 		img {
 			width: 100%;
 		}
@@ -115,6 +141,11 @@
 		overflow-y: hidden;
 		width: 400px;
 		height: 260px;
+
+	    @media #{$mobile} {
+	    	width: 160px;
+	    	height: 120px;
+	    }
 
 		img {
 			width: 100%;
