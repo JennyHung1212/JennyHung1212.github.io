@@ -27,6 +27,10 @@
 		margin-top: 20px;
 		text-align: justify;
 
+		@media #{$mobile} {
+			text-align: left;
+		}
+
 		&--image {
 			margin-top: 40px;
 			margin-bottom: 30px;
@@ -37,6 +41,9 @@
 
 .horizontal-single {
 	padding: 0 30px;
+	@media #{$mobile} {
+		padding: 0;
+	}
 
 	&__frame {
 		width: 600px;
@@ -112,8 +119,8 @@
 		margin-right: 10px;
 
 	    @media #{$mobile} {
-	    	width: 150px;
-	    	height: 250px;
+	    	width: 130px;
+	    	height: 230px;
 	    }
 
 		img {
@@ -128,8 +135,8 @@
 		margin-bottom: 10px;
 		
 	    @media #{$mobile} {
-	    	width: 160px;
-	    	height: 120px;
+	    	width: 150px;
+	    	height: 110px;
 	    }
 
 		img {
@@ -143,8 +150,8 @@
 		height: 260px;
 
 	    @media #{$mobile} {
-	    	width: 160px;
-	    	height: 120px;
+	    	width: 150px;
+	    	height: 110px;
 	    }
 
 		img {
