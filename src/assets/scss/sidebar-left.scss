@@ -14,4 +14,47 @@
 			width: 300px;
 		}
 	}
+
+	&__menu {
+		margin-top: 30px;
+    line-height: 40px;
+    padding: 0 15px;
+    text-align: right;
+
+    span {
+    	font-size: 24px;
+    	font-weight: 900;
+    }
+
+    img {
+    	margin-bottom: -3px;
+    }
+	}
+
+	.selected {
+		span {
+			color: $lightsalmon;
+		}
+
+		img {
+			display: -webkit-inline-box;
+		}
+
+	}
+
+	.not-selected {
+		span {
+	    color: $silver;
+
+	    &:hover {
+	    	color: $lightsalmon;
+	    	cursor: pointer;
+	    }
+		}
+
+    img {
+    	display: none;
+    }
+
+	}
 }

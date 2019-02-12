@@ -1,7 +1,7 @@
 <template>
   <div class="site-container">
     <header class="header-container">
-      <img src="./assets/images/logo.png">
+      <img src="./assets/images/logo.png"/>
     </header>
     <router-view/>
     <footer class="footer-container">
@@ -18,6 +18,7 @@ export default {
 
 <style lang=scss>
 @import "assets/scss/layout";
+
 .site-container {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,6 +26,7 @@ export default {
   color: $content-color;
   margin-top: 70px;
 }
+
 .header-container {
   background-color: white;
   height: 70px;
@@ -46,6 +48,19 @@ export default {
       margin-right: 0;
     }
   }
+}
+
+.row {
+  max-height: calc(100vh-70px);
+  overflow-y: hidden;
+  @media #{$mobile} {
+    max-height: unset;
+    overflow-y: scroll;
+  }
+}
+
+.content {
+  overflow-y: scroll;
 }
 
 </style>
