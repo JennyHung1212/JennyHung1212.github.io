@@ -23,6 +23,11 @@ $desktop: "only screen and (min-width : 1400px)";
 	display: inline-block;
 }
 
+.invisible-scrollbar {
+	overflow-y: scroll;
+}
+
 .invisible-scrollbar::-webkit-scrollbar {
 	display: none;
 }
+

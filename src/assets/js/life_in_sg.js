@@ -5,7 +5,7 @@ function select_week(week, content, weeks, contents) {
 	week.removeClass("not-selected");
 	week.addClass("selected");
 	content.css("display", "block");
-	$(".content").scrollTop(0);
+	$(".invisible-scrollbar").scrollTop(0);
 
 	for(let i = 0; i < weeks.length; i++) {
 		weeks[i].removeClass("selected");

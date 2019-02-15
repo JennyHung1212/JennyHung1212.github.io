@@ -47,15 +47,15 @@
 
 	&__frame {
 		width: 600px;
-	    height: 400px;
-	    overflow-x: hidden;
-	    overflow-y: hidden;
-	    margin: auto;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: auto;
 
-	    @media #{$mobile} {
-	    	width: 100%;
-	    	height: auto;
-	    }
+    @media #{$mobile} {
+    	width: 100%;
+    	height: auto;
+    }
 	}
 
 	img {
@@ -65,36 +65,36 @@
 	&__annotation {
 		font-weight: bold;
 		color: $slategrey;
-	    font-size: 16px;
-	    text-align: center;
-	    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
 	}
 }
 
 .horizontal-double {
 	&__frame1 {
-	    width: 450px;
-	    height: 300px;
-	    overflow-y: hidden;
-	    margin-right: 10px;
+    width: 450px;
+    height: 300px;
+    overflow-y: hidden;
+    margin-right: 10px;
 
-	    @media #{$mobile} {
-	    	width: 50%;
-	    	height: auto;
-	    	margin-left: -1.5%;
-	    }
+    @media #{$mobile} {
+    	width: 50%;
+    	height: auto;
+    	margin-left: -1.5%;
+    }
 	}
 
 	&__frame2 {
-	    width: 450px;
-	    height: 300px;
-	    overflow-y: hidden;
-	    margin-right: -15%;
+    width: 450px;
+    height: 300px;
+    overflow-y: hidden;
+    margin-right: -15%;
 
-	    @media #{$mobile} {
-	    	width: 50%;
-	    	height: auto;
-	    }
+    @media #{$mobile} {
+    	width: 50%;
+    	height: auto;
+    }
 	}
 
 	img {
@@ -104,9 +104,9 @@
 	&__annotation {
 		font-weight: bold;
 		color: $slategrey;
-	    font-size: 16px;
-	    text-align: center;
-	    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
 	}
 }
 
@@ -118,10 +118,10 @@
 		height: 530px;
 		margin-right: 10px;
 
-	    @media #{$mobile} {
-	    	width: 130px;
-	    	height: 230px;
-	    }
+    @media #{$mobile} {
+    	width: 130px;
+    	height: 230px;
+    }
 
 		img {
 			height: 100%;
@@ -134,10 +134,10 @@
 		height: 260px;
 		margin-bottom: 10px;
 		
-	    @media #{$mobile} {
-	    	width: 150px;
-	    	height: 110px;
-	    }
+    @media #{$mobile} {
+    	width: 150px;
+    	height: 110px;
+    }
 
 		img {
 			width: 100%;
@@ -149,10 +149,10 @@
 		width: 400px;
 		height: 260px;
 
-	    @media #{$mobile} {
-	    	width: 150px;
-	    	height: 110px;
-	    }
+    @media #{$mobile} {
+    	width: 150px;
+    	height: 110px;
+    }
 
 		img {
 			width: 100%;
@@ -164,9 +164,9 @@
 	&__annotation {
 		font-weight: bold;
 		color: $slategrey;
-	    font-size: 16px;
-	    text-align: center;
-	    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
 	}
 }
 

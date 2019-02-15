@@ -18,7 +18,6 @@ export default {
 
 <style lang=scss>
 @import "assets/scss/layout";
-
 .site-container {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -58,9 +57,4 @@ export default {
     overflow-y: scroll;
   }
 }
-
-.content {
-  overflow-y: scroll;
-}
-
 </style>
