@@ -22,17 +22,23 @@ export function left_menu() {
 		let content02 = $("#sg-week-02");
 		let week03 = $(".sg-week-03");
 		let content03 = $("#sg-week-03");
+		let week04 = $(".sg-week-04");
+		let content04 = $("#sg-week-04");
 
 		week01.click(function(){
-			select_week(week01, content01, [week02, week03], [content02, content03]);
+			select_week(week01, content01, [week02, week03, week04], [content02, content03, content04]);
 		});
 
 		week02.click(function(){
-			select_week(week02, content02, [week01, week03], [content01, content03]);
+			select_week(week02, content02, [week01, week03, week04], [content01, content03, content04]);
 		});
 
 		week03.click(function(){
-			select_week(week03, content03, [week01, week02], [content01, content02]);
+			select_week(week03, content03, [week01, week02, week04], [content01, content02, content04]);
+		});
+
+		week04.click(function(){
+			select_week(week04, content04, [week01, week02, week03], [content01, content02, content03]);
 		});
 	});
 };
