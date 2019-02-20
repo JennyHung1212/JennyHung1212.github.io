@@ -1,0 +1,15 @@
+.footer-container {
+	&__progress {
+		height: 2%;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+
+		&--bar {
+			height: 100%;
+			width: 0%;
+			background-color: $indianred;
+		}
+	}
+}

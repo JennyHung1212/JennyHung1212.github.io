@@ -2,7 +2,7 @@
   <div class="row">
   	<div class="col-md-3 col-xs-12 sidebar-left">
   		<div class="sidebar-left__title">
-  			<img src="../assets/images/life_in_sg.png" alt="Life in Singapore"/>
+  			<img src="../assets/images/life_in_sg.png" alt="Life in Singapore" data--80-top="transform:rotate(0deg);" data--120-top="transform:rotate(360deg)"/>
   		</div>
   		<div class="sidebar-left__menu">
   			<div class="sg-week-01 selected"><span>WEEK 01</span><img src="../assets/images/right_arrow.png"/></div>

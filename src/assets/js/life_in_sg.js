@@ -5,12 +5,16 @@ function select_week(week, content, weeks, contents) {
 	week.removeClass("not-selected");
 	week.addClass("selected");
 	content.css("display", "block");
+	content.removeClass("not-scrolled");
+	content.addClass("scrolled");
 	$(".invisible-scrollbar").scrollTop(0);
 
 	for(let i = 0; i < weeks.length; i++) {
 		weeks[i].removeClass("selected");
 		weeks[i].addClass("not-selected");
 		contents[i].css("display", "none");
+		contents[i].removeClass("scrolled");
+		contents[i].addClass("not-scrolled");
 	}
 }
 
