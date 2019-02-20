@@ -12,4 +12,18 @@
 			background-color: $indianred;
 		}
 	}
+
+	&__top {
+		position: fixed;
+		right: 40px;
+		bottom: 4%;
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		img {
+			width: 50px;
+		}
+	}
 }

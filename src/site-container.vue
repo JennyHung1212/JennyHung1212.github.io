@@ -5,6 +5,9 @@
     </header>
     <router-view/>
     <footer class="footer-container">
+      <div class="footer-container__top">
+        <img src="./assets/images/up.png">
+      </div>
       <div class="footer-container__progress">
         <div class="footer-container__progress--bar"></div>
       </div>
@@ -13,8 +16,9 @@
 </template>
 
 <script>
-import {progress_bar} from "./assets/js/footer.js";
+import {progress_bar, scroll_top} from "./assets/js/footer.js";
 progress_bar();
+scroll_top();
 
 export default {
   name: "SiteContainer"
