@@ -2,6 +2,9 @@ import $ from "jquery";
 window.$ = window.jQuery = $;
 
 function select_week(week, content, weeks, contents) {
+	$('#toggle').removeClass("active");
+	$('.sidebar-left-mobile').removeClass('open');
+
 	week.removeClass("not-selected");
 	week.addClass("selected");
 	content.css("display", "block");

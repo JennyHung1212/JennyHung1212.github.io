@@ -3,6 +3,11 @@
     <header class="header-container">
       <img src="./assets/images/logo.png"/>
     </header>
+    <div class="header-container__left-toggle" id="toggle">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
     <router-view/>
     <footer class="footer-container">
       <div class="footer-container__top">
@@ -16,6 +21,9 @@
 </template>
 
 <script>
+import {left_toggle} from "./assets/js/header.js";
+left_toggle();
+
 import {progress_bar, scroll_top} from "./assets/js/footer.js";
 progress_bar();
 scroll_top();

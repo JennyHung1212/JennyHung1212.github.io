@@ -11,6 +11,14 @@
   			<div class="sg-week-04 not-selected"><span>WEEK 04</span><img src="../assets/images/right_arrow.png"/></div>
   		</div>
   	</div>
+  	<div class="sidebar-left-mobile">
+  		<div class="sidebar-left-mobile__menu">
+  			<div class="sg-week-01 selected"><span>WEEK 01</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-02 not-selected"><span>WEEK 02</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-03 not-selected"><span>WEEK 03</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-04 not-selected"><span>WEEK 04</span><img src="../assets/images/right_arrow.png"/></div>
+  		</div>
+  	</div>
   	<div class="col-md-9 col-xs-12 invisible-scrollbar">
  			<Week01/>
   		<Week02/>
