@@ -16,10 +16,10 @@
 			</div>
 			<div class="content__content--image horizontal-double">
 				<div class="horizontal-double__frame1 inline-block">
-					<img src="../../assets/images/week01/chinatown.jpg"/>
+					<a href="../../assets/images/week01/chinatown.jpg" data-lightbox="week01-1"><img src="../../assets/images/week01/chinatown.jpg"></a>
 				</div>
 				<div class="horizontal-double__frame2 inline-block">
-					<img src="../../assets/images/week01/teamates.jpg"/>
+					<a href="../../assets/images/week01/teamates.jpg" data-lightbox="week01-1"><img src="../../assets/images/week01/teamates.jpg"></a>
 				</div>
 				<div class="horizontal-double__annotation">1) The view from Chinatown Foodcourt. 2) My Amazing Race teammates.</div>
 			</div>
@@ -28,7 +28,7 @@
 			</div>
 			<div class="content__content--image horizontal-single">
 				<div class="horizontal-single__frame">
-					<img src="../../assets/images/week01/museum.jpg"/>
+					<a href="../../assets/images/week01/museum.jpg" data-lightbox="week01-2"><img src="../../assets/images/week01/museum.jpg"/></a>
 				</div>
 				<div class="horizontal-single__annotation">National Museum of Singapore, built in 1849.</div>
 			</div>
@@ -38,15 +38,15 @@
 			<div class="content__content--image mixed-triple">
 				<div class="inline-block">
 					<div class="mixed-triple__frame1">
-  					<img src="../../assets/images/week01/CIP-1.jpg"/>
+  					<a href="../../assets/images/week01/CIP-1.jpg" data-lightbox="week01-3"><img src="../../assets/images/week01/CIP-1.jpg"/></a>
   				</div>
 				</div>
 				<div class="inline-block">
 					<div class="mixed-triple__frame2">
-  					<img src="../../assets/images/week01/CIP-2.jpg"/>
+						<a href="../../assets/images/week01/CIP-2.jpg" data-lightbox="week01-3"><img src="../../assets/images/week01/CIP-2.jpg"/></a>
   				</div>
   				<div class="mixed-triple__frame3">
-  					<img src="../../assets/images/week01/CIP-3.jpg"/>
+  					<a href="../../assets/images/week01/CIP-3.jpg" data-lightbox="week01-3"><img src="../../assets/images/week01/CIP-3.jpg"/></a>
   				</div>
 				</div>
 				<div class="mixed-triple__annotation">1) We put all the food and daily supplies in the baggage to be delivered. 2) We do the garbage classification together. There were lots of garbage and losts of plastic bags being used. I think maybe a more eco-friendly way would be better. 3) Me, Kwangho and Ronald.</div>
@@ -56,6 +56,7 @@
 </template>
 
 <script>
+import lightbox from "lightbox2";
 export default {
 	name: "Week01",
 };
@@ -64,4 +65,5 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/scss/layout";
 @import "../../assets/scss/content";
+@import "../../../node_modules/lightbox2/dist/css/lightbox.min.css";
 </style>
