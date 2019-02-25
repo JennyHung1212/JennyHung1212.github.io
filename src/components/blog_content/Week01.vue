@@ -15,11 +15,11 @@
 				There was a fun activity called "Amazing Race" on Orientation Day. We splitted up in teams and completed the tasks on the list. The team completed the most tasks is the winner. Our team went to China Town for lunch first. I had some 炒粿粉, and we shared Ice Kachang and Cendol together. The shaved ice wasn't my favorite because it's a little bit too sweet, but it was definitely a good experience since it's the most colorful shaved ice I've ever tasted!
 			</div>
 			<div class="content__content--image horizontal-double">
-				<div class="horizontal-double__frame1 inline-block">
-					<a href="../../assets/images/week01/chinatown.jpg" data-lightbox="week01-1"><img src="../../assets/images/week01/chinatown.jpg"></a>
+				<div class="horizontal-double__frame1 inline-block img_lightbox">
+					<a href="" data-lightbox="week01-1"><img src="../../assets/images/week01/chinatown.jpg"></a>
 				</div>
-				<div class="horizontal-double__frame2 inline-block">
-					<a href="../../assets/images/week01/teamates.jpg" data-lightbox="week01-1"><img src="../../assets/images/week01/teamates.jpg"></a>
+				<div class="horizontal-double__frame2 inline-block img_lightbox">
+					<a href="" data-lightbox="week01-1"><img src="../../assets/images/week01/teamates.jpg"></a>
 				</div>
 				<div class="horizontal-double__annotation">1) The view from Chinatown Foodcourt. 2) My Amazing Race teammates.</div>
 			</div>
@@ -27,8 +27,8 @@
 				Next, we went to habourfront station. We visited helix bridge, the shoppes at Marina Bay Sands, and Garden by the Bay. The Marina Bay Sands is really spectacular when watching it closely, and the garden is also very splendid. It's like the reproduce of the scene in the movie "Crazy Rich Asians". Finally we took MRT to Dhoby Ghaut station, and visited Singapore Art Museum, National Museum of Singapore, Chijmas, St. Andrews Cathedral, and finally the MacDonald House, which was the first building with air-conditioner in Southeast Asia. We took lots of great pictures and got to know Singaporean history and environment more.
 			</div>
 			<div class="content__content--image horizontal-single">
-				<div class="horizontal-single__frame">
-					<a href="../../assets/images/week01/museum.jpg" data-lightbox="week01-2"><img src="../../assets/images/week01/museum.jpg"/></a>
+				<div class="horizontal-single__frame img_lightbox">
+					<a href="" data-lightbox="week01-2"><img src="../../assets/images/week01/museum.jpg"/></a>
 				</div>
 				<div class="horizontal-single__annotation">National Museum of Singapore, built in 1849.</div>
 			</div>
@@ -37,16 +37,16 @@
 			</div>
 			<div class="content__content--image mixed-triple">
 				<div class="inline-block">
-					<div class="mixed-triple__frame1">
-  					<a href="../../assets/images/week01/CIP-1.jpg" data-lightbox="week01-3"><img src="../../assets/images/week01/CIP-1.jpg"/></a>
+					<div class="mixed-triple__frame1 img_lightbox">
+  					<a href="" data-lightbox="week01-3"><img src="../../assets/images/week01/CIP-1.jpg"/></a>
   				</div>
 				</div>
 				<div class="inline-block">
-					<div class="mixed-triple__frame2">
-						<a href="../../assets/images/week01/CIP-2.jpg" data-lightbox="week01-3"><img src="../../assets/images/week01/CIP-2.jpg"/></a>
+					<div class="mixed-triple__frame2 img_lightbox">
+						<a href="" data-lightbox="week01-3"><img src="../../assets/images/week01/CIP-2.jpg"/></a>
   				</div>
-  				<div class="mixed-triple__frame3">
-  					<a href="../../assets/images/week01/CIP-3.jpg" data-lightbox="week01-3"><img src="../../assets/images/week01/CIP-3.jpg"/></a>
+  				<div class="mixed-triple__frame3 img_lightbox">
+  					<a href="" data-lightbox="week01-3"><img src="../../assets/images/week01/CIP-3.jpg"/></a>
   				</div>
 				</div>
 				<div class="mixed-triple__annotation">1) We put all the food and daily supplies in the baggage to be delivered. 2) We do the garbage classification together. There were lots of garbage and losts of plastic bags being used. I think maybe a more eco-friendly way would be better. 3) Me, Kwangho and Ronald.</div>
@@ -57,6 +57,9 @@
 
 <script>
 import lightbox from "lightbox2";
+import {img_lightbox} from "../../assets/js/lightbox.js";
+img_lightbox();
+
 export default {
 	name: "Week01",
 };

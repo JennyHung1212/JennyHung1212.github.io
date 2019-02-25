@@ -19,8 +19,8 @@
 				Taking a plane from Singapore to Kuala Lumpur only takes an hour. I wnet back to dorm to pack and rushed to the airport, and then suddenly, I was there! I walked out of the arrival hall, seeing my friend, Lisa, happily waving at me. Lisa and her families bring me to a night market near their home, and ate delicious Nasi Lemak. The queue for Nasi Lemak was very long. It took us about 40 minitues to get our food. The sauce on the chicken was extremely good and the spicy sauce served with the meal was super hot. I bursted into tears the second I tasted it.
 			</div>
 			<div class="content__content--image horizontal-single">
-				<div class="horizontal-single__frame">
-					<img src="../../assets/images/week03/nasi_lemak.jpg"/>
+				<div class="horizontal-single__frame img_lightbox">
+					<a href="" data-lightbox="week03-1"><img src="../../assets/images/week03/nasi_lemak.jpg"/></a>
 				</div>
 				<div class="horizontal-single__annotation">Eating Nasi Lemak with Lisa's families in the night market near her home.</div>
 			</div>
@@ -30,8 +30,8 @@
 				The first stop is Istana Negara, the National Palace of Malaysia. The building is very majestic. The surface of the palace was covered with some golden paint. It shined under the couldless blue sky, made the palace even more noble.
 			</div>
 			<div class="content__content--image horizontal-single">
-				<div class="horizontal-single__frame">
-					<img src="../../assets/images/week03/palace.jpg"/>
+				<div class="horizontal-single__frame img_lightbox">
+					<a href="" data-lightbox="week03-2"><img src="../../assets/images/week03/palace.jpg"/></a>
 				</div>
 				<div class="horizontal-single__annotation">The gate of the National Palace. There was one guard riding on the horse at each side of the gate.</div>
 			</div>
@@ -39,11 +39,11 @@
 				After lunch, we went to Central Market and Petaling Street. The stores in Central Market sell traditional handicrafts, clothing and artworks. We met an artist who made 捕夢網. He was very hospitable and tought us how to make one. He said that it took him years of practicing and thousands of pieces to make him a master. The 捕夢網 he made were very beautiful and exquisite. The last stop was the famous skyscraper KLCC. Unfortunately, the weather was bad in the evening so I couldn't take a good picture of KLCC. But we had delicious local desserts at Nyonya Colors at KLCC. A good dessert can always make the day.
 			</div>
 			<div class="content__content--image horizontal-double">
-				<div class="horizontal-double__frame1 inline-block">
-					<img src="../../assets/images/week03/bowls.jpg"/>
+				<div class="horizontal-double__frame1 inline-block img_lightbox">
+					<a href="" data-lightbox="week03-3"><img src="../../assets/images/week03/bowls.jpg"/></a>
 				</div>
-				<div class="horizontal-double__frame2 inline-block">
-					<img src="../../assets/images/week03/nyonya.jpg"/>
+				<div class="horizontal-double__frame2 inline-block img_lightbox">
+					<a href="" data-lightbox="week03-3"><img src="../../assets/images/week03/nyonya.jpg"/></a>
 				</div>
 				<div class="horizontal-double__annotation">1) The bowls made of coconut shell from Central Market. 2) The colorful nyonya desserts. They look good and taste even better!</div>
 			</div>
@@ -52,16 +52,16 @@
 			</div>
 			<div class="content__content--image mixed-triple">
 				<div class="inline-block">
-					<div class="mixed-triple__frame1">
-  					<img src="../../assets/images/week03/me.jpg"/>
+					<div class="mixed-triple__frame1 img_lightbox">
+  					<a href="" data-lightbox="week03-4"><img src="../../assets/images/week03/me.jpg"/></a>
   				</div>
 				</div>
 				<div class="inline-block">
-					<div class="mixed-triple__frame2">
-  					<img src="../../assets/images/week03/batu_caves.jpg"/>
+					<div class="mixed-triple__frame2 img_lightbox">
+  					<a href="" data-lightbox="week03-4"><img src="../../assets/images/week03/batu_caves.jpg"/></a>
   				</div>
-  				<div class="mixed-triple__frame3">
-  					<img src="../../assets/images/week03/staris.jpg"/>
+  				<div class="mixed-triple__frame3 img_lightbox">
+  					<a href="" data-lightbox="week03-4"><img src="../../assets/images/week03/staris.jpg"/></a>
   				</div>
 				</div>
 				<div class="mixed-triple__annotation">1) There is a temple below the cave. The sculptures on the wall are very fastidious. 2) Batu Caves 3) The entrance of the caves.</div>
@@ -70,11 +70,11 @@
 				In the afternoon, we went to Putrajaya, where Perdana Putra, others government agencies and Putra Mosque located at. The green-domed Perdana Putra contains the prime minister’s office complex. In front of the Perdana Putra is a big plaza and next to the plaza is Putra Mosque, made from rose-colored granite with a pink dome. There were two hours left until the opening hours of the mosque, so we just walked around the plaza and took lots of great piectures.
 			</div>
 			<div class="content__content--image horizontal-double">
-				<div class="horizontal-double__frame1 inline-block">
-					<img src="../../assets/images/week03/perdana.jpg"/>
+				<div class="horizontal-double__frame1 inline-block img_lightbox">
+					<a href="" data-lightbox="week03-5"><img src="../../assets/images/week03/perdana.jpg"/></a>
 				</div>
-				<div class="horizontal-double__frame2 inline-block">
-					<img src="../../assets/images/week03/mosque.jpg"/>
+				<div class="horizontal-double__frame2 inline-block img_lightbox">
+					<a href="" data-lightbox="week03-5"><img src="../../assets/images/week03/mosque.jpg"/></a>
 				</div>
 				<div class="horizontal-double__annotation">1) There are a group of scooter riders with different colors of scooters in front of the Perdana Putra 2) The beautful pink mosque!</div>
 			</div>
@@ -83,16 +83,16 @@
 			</div>
 			<div class="content__content--image mixed-triple">
 				<div class="inline-block">
-					<div class="mixed-triple__frame1">
-  					<img src="../../assets/images/week03/moroccan_pavilion.jpg"/>
+					<div class="mixed-triple__frame1 img_lightbox">
+  					<a href="" data-lightbox="week03-6"><img src="../../assets/images/week03/moroccan_pavilion.jpg"/></a>
   				</div>
 				</div>
 				<div class="inline-block">
-					<div class="mixed-triple__frame2">
-  					<img src="../../assets/images/week03/moroccan_pavilion-2.jpg"/>
+					<div class="mixed-triple__frame2 img_lightbox">
+  					<a href="" data-lightbox="week03-6"><img src="../../assets/images/week03/moroccan_pavilion-2.jpg"/></a>
   				</div>
-  				<div class="mixed-triple__frame3">
-  					<img src="../../assets/images/week03/moroccan_pavilion-3.jpg"/>
+  				<div class="mixed-triple__frame3 img_lightbox">
+  					<a href="" data-lightbox="week03-6"><img src="../../assets/images/week03/moroccan_pavilion-3.jpg"/></a>
   				</div>
 				</div>
 				<div class="mixed-triple__annotation">Moroccan Pavilion of the Putrajaya Botanical Garden.</div>
@@ -105,6 +105,10 @@
 </template>
 
 <script>
+import lightbox from "lightbox2";
+import {img_lightbox} from "../../assets/js/lightbox.js";
+img_lightbox();
+
 export default {
 	name: "Week03",
 };
