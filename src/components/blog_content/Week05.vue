@@ -53,17 +53,6 @@
 </template>
 
 <script>
-import {img_lightbox} from "../../assets/js/lightbox.js";
-img_lightbox();
-
-import lightbox from "lightbox2";
-lightbox.option({
-  'wrapAround': true,
-  'albumLabel':	'%1 / %2',
-  'disableScrolling': true,
-  
-})
-
 export default {
 	name: "Week05",
 };

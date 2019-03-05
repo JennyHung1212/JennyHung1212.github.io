@@ -34,25 +34,31 @@ export function left_menu() {
 		let content04 = $("#sg-week-04");
 		let week05 = $(".sg-week-05");
 		let content05 = $("#sg-week-05");
+		let week06 = $(".sg-week-06");
+		let content06 = $("#sg-week-06");
 
 		week01.click(function(){
-			select_week(week01, content01, [week02, week03, week04, week05], [content02, content03, content04, content05]);
+			select_week(week01, content01, [week02, week03, week04, week05, week06], [content02, content03, content04, content05, content06]);
 		});
 
 		week02.click(function(){
-			select_week(week02, content02, [week01, week03, week04, week05], [content01, content03, content04, content05]);
+			select_week(week02, content02, [week01, week03, week04, week05, week06], [content01, content03, content04, content05, content06]);
 		});
 
 		week03.click(function(){
-			select_week(week03, content03, [week01, week02, week04, week05], [content01, content02, content04, content05]);
+			select_week(week03, content03, [week01, week02, week04, week05, week06], [content01, content02, content04, content05, content06]);
 		});
 
 		week04.click(function(){
-			select_week(week04, content04, [week01, week02, week03, week05], [content01, content02, content03, content05]);
+			select_week(week04, content04, [week01, week02, week03, week05, week06], [content01, content02, content03, content05, content06]);
 		});
 
 		week05.click(function(){
-			select_week(week05, content05, [week01, week02, week03, week04], [content01, content02, content03, content04]);
+			select_week(week05, content05, [week01, week02, week03, week04, week06], [content01, content02, content03, content04, content06]);
+		});
+
+		week06.click(function(){
+			select_week(week06, content06, [week01, week02, week03, week04, week05], [content01, content02, content03, content04, content05]);
 		});
 	});
 };

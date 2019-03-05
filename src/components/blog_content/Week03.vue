@@ -105,17 +105,6 @@
 </template>
 
 <script>
-import {img_lightbox} from "../../assets/js/lightbox.js";
-img_lightbox();
-
-import lightbox from "lightbox2";
-lightbox.option({
-  'wrapAround': true,
-  'albumLabel':	'%1 / %2',
-  'disableScrolling': true,
-  
-})
-
 export default {
 	name: "Week03",
 };
@@ -131,6 +120,11 @@ export default {
 	background-color: rgba(105, 105, 105, .1);
 	padding: 40px;
 	margin-bottom: 20px;
+
+	@media #{$mobile} {
+		width: 100%;
+    margin-left: -40px;
+	}
 
 	span {
 		font-weight: bold;

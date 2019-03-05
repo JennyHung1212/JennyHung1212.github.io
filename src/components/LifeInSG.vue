@@ -10,6 +10,7 @@
   			<div class="sg-week-03 not-selected"><span>WEEK 03</span><img src="../assets/images/right_arrow.png"/></div>
   			<div class="sg-week-04 not-selected"><span>WEEK 04</span><img src="../assets/images/right_arrow.png"/></div>
   			<div class="sg-week-05 not-selected"><span>WEEK 05</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-06 not-selected"><span>WEEK 06</span><img src="../assets/images/right_arrow.png"/></div>
   		</div>
   	</div>
   	<div class="sidebar-left-mobile">
@@ -19,6 +20,7 @@
 				<div class="sg-week-03 not-selected"><span>WEEK 03</span><img src="../assets/images/right_arrow.png"/></div>
 				<div class="sg-week-04 not-selected"><span>WEEK 04</span><img src="../assets/images/right_arrow.png"/></div>
 				<div class="sg-week-05 not-selected"><span>WEEK 05</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-06 not-selected"><span>WEEK 06</span><img src="../assets/images/right_arrow.png"/></div>
   		</div>
   	</div>
   	<div class="col-md-9 col-xs-12 invisible-scrollbar">
@@ -27,6 +29,7 @@
   		<Week03/>
   		<Week04/>
   		<Week05/>
+  		<Week06/>
   	</div>
   </div>
 </template>
@@ -37,6 +40,7 @@ import Week02 from "./blog_content/Week02";
 import Week03 from "./blog_content/Week03";
 import Week04 from "./blog_content/Week04";
 import Week05 from "./blog_content/Week05";
+import Week06 from "./blog_content/Week06";
 import {left_menu} from "../assets/js/life_in_sg.js";
 left_menu();
 
@@ -47,9 +51,19 @@ export default {
 		Week02,
 		Week03,
 		Week04,
-		Week05
+		Week05,
+		Week06
 	}
 };
+
+import {img_lightbox} from "../assets/js/lightbox.js";
+img_lightbox();
+
+import lightbox from "lightbox2";
+lightbox.option({
+  'wrapAround': true,
+  'albumLabel':	'%1 / %2',
+})
 </script>
 
 <style scoped lang="scss">
