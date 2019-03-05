@@ -26,6 +26,7 @@ $desktop: "only screen and (min-width : 1400px)";
 
 .invisible-scrollbar {
 	overflow-y: scroll;
+	height: -webkit-fill-available;
 }
 
 .invisible-scrollbar::-webkit-scrollbar {

@@ -1,5 +1,5 @@
 <template>
-	<div id="sg-week-05" class="content scrolled">
+	<div id="sg-week-05" class="content" style="display: none">
 		<div class="content__title">
 			Night Cycling<img src="../../assets/images/vertical_bars_sg.png"/>
 		</div>
@@ -53,9 +53,16 @@
 </template>
 
 <script>
-import lightbox from "lightbox2";
 import {img_lightbox} from "../../assets/js/lightbox.js";
 img_lightbox();
+
+import lightbox from "lightbox2";
+lightbox.option({
+  'wrapAround': true,
+  'albumLabel':	'%1 / %2',
+  'disableScrolling': true,
+  
+})
 
 export default {
 	name: "Week05",
