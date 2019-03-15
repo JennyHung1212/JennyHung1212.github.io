@@ -23,21 +23,31 @@
 			<div class="content__content--text">
 				I went to Old Airport Road Food Court on Thursday, which is recommended by a local student. Old Airport Road FC has a great variety of food to choose from, and the price is really reasonable. I had mango-dragonfruit juice, hokkien fried mee (福建蝦麵) and Cheong Fun (腸粉). The interesting thing about hokkien fried mee is that it's wrapped in paper! I think I will visit there again soon, and maybe go see a movie after that as well.
 			</div>
-			<div class="content__content--image mixed-triple">
-				<div class="inline-block">
-					<div class="mixed-triple__frame1 img_lightbox">
-  					<a href="" data-lightbox="week05-2"><img src="../../assets/images/week05/drink.jpg"/></a>
-  				</div>
+			<div class="content__content--image">
+				<div class="desktop-img mixed-triple">
+					<div class="inline-block">
+						<div class="mixed-triple__frame1 img_lightbox">
+	  					<a href="" data-lightbox="week05-2"><img src="../../assets/images/week05/drink.jpg"/></a>
+	  				</div>
+					</div>
+					<div class="inline-block">
+						<div class="mixed-triple__frame2 img_lightbox">
+	  					<a href="" data-lightbox="week05-2"><img src="../../assets/images/week05/mee.jpg"/></a>
+	  				</div>
+	  				<div class="mixed-triple__frame3 img_lightbox">
+	  					<a href="" data-lightbox="week05-2"><img src="../../assets/images/week05/fun.jpg"/></a>
+	  				</div>
+					</div>
+					<div class="mixed-triple__annotation">1) The color of the drink was beautiful and taste super good. 2) There were many shrimps in it! Definitely worth the price. 3) 叉燒腸粉 and 雞蛋腸粉.</div>
 				</div>
-				<div class="inline-block">
-					<div class="mixed-triple__frame2 img_lightbox">
-  					<a href="" data-lightbox="week05-2"><img src="../../assets/images/week05/mee.jpg"/></a>
-  				</div>
-  				<div class="mixed-triple__frame3 img_lightbox">
-  					<a href="" data-lightbox="week05-2"><img src="../../assets/images/week05/fun.jpg"/></a>
-  				</div>
+				<div class="mobile-img swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../../assets/images/week05/mee.jpg"/></div>
+						<div class="swiper-slide"><img src="../../assets/images/week05/fun.jpg"/></div>
+					</div>
+					<div class="swiper-button-next"></div>
+    			<div class="swiper-button-prev"></div>
 				</div>
-				<div class="mixed-triple__annotation">1) The color of the drink was beautiful and taste super good. 2) There were many shrimps in it! Definitely worth the price. 3) 叉燒腸粉 and 雞蛋腸粉.</div>
 			</div>
 			<div class="content__content--text">
 				Finally, there comes the most exciting event of the week! The Night Cycling! We started from Singapore Sports Hub (National Stadium), via Gardens by the Bay, MBS, had a meal at East Coast Park, and rode back to National Stadium. We started at around 10 pm and finished at 3:30 am. The route is about 32 kilometers long, which is quite relaxing for a 4-hour ride. The city still looks very beatutiful at night and I made friends with some local students of SUTD and also some foreign students from others schools. After the event, I decided to ride a bike to Johor Bahru, which is a city of Malaysia that is connected to Singapore. And maybe cycling around the Singapore island. I'm so escited about it!
@@ -61,5 +71,5 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/scss/layout";
 @import "../../assets/scss/content";
-@import "../../../node_modules/lightbox2/dist/css/lightbox.min.css";
+@import "../../assets/scss/swiper";
 </style>

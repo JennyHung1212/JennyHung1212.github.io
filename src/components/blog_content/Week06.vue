@@ -32,14 +32,24 @@
 			<div class="content__content--text">
 				The last exhibit was MINIMALISM: SPACE, LIGHT, OBJECT. The exhibit included painting, sculpture, installation and music. To be honest, I'm not an art person, so I wasn't really moved by the art works. But I did enjoy the unique spacial structure of the building and the art spirit. There was a free exhibition at the top level of the museum. You can lie on the floor while enjoying a short film about nature project on the tall wall of exhibit hall.
 			</div>
-			<div class="content__content--image horizontal-double">
-				<div class="horizontal-double__frame1 inline-block img_lightbox">
-					<a href="" data-lightbox="week06-2"><img src="../../assets/images/week06/art1.jpg"/></a>
+			<div class="content__content--image">
+				<div class="desktop-img horizontal-double">
+					<div class="horizontal-double__frame1 inline-block img_lightbox">
+						<a href="" data-lightbox="week06-2"><img src="../../assets/images/week06/art1.jpg"/></a>
+					</div>
+					<div class="horizontal-double__frame2 inline-block img_lightbox">
+						<a href="" data-lightbox="week06-2"><img src="../../assets/images/week06/art2.jpg"/></a>
+					</div>
+					<div class="horizontal-double__annotation">Some art works of MINIMALISM: SPACE, LIGHT, OBJECT.</div>
 				</div>
-				<div class="horizontal-double__frame2 inline-block img_lightbox">
-					<a href="" data-lightbox="week06-2"><img src="../../assets/images/week06/art2.jpg"/></a>
+				<div class="mobile-img swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../../assets/images/week06/art1.jpg"/></div>
+						<div class="swiper-slide"><img src="../../assets/images/week06/art2.jpg"/></div>
+					</div>
+					<div class="swiper-button-next"></div>
+    			<div class="swiper-button-prev"></div>
 				</div>
-				<div class="horizontal-double__annotation">Some art works of MINIMALISM: SPACE, LIGHT, OBJECT.</div>
 			</div>
 			<div class="content__content--text">
 				Saturday is the third CIP event. We went to All Saints Home to help with the birthday celebration event. All Saints Home is a Voluntary Welfare Organisation (VWO) that provides comprehensive and professional eldercare services to the aged of all backgrounds. Most of the residents there are elderly people. Some of them are sill in good condition, but many of them should move in wheelchairs or lie in bed all time. It's really touching that there are a group of people who are willing to give their time every weekend to accompany the elders. After the birthday celebration event, we separated in to two groups and sang songs to the residents there. Most Chinese and Hokkian songs in the song book are popular songs twenty years ago in Taiwan, so I could sing alone most of the time. It was a lot of fun!
@@ -58,7 +68,7 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/scss/layout";
 @import "../../assets/scss/content";
-@import "../../../node_modules/lightbox2/dist/css/lightbox.min.css";
+@import "../../assets/scss/swiper";
 
 .quote {
 	font-size: 24px;

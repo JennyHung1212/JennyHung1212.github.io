@@ -38,33 +38,39 @@ export function left_menu() {
 		let content06 = $("#sg-week-06");
 		let week07 = $(".sg-week-07");
 		let content07 = $("#sg-week-07");
+		let week08 = $(".sg-week-08");
+		let content08 = $("#sg-week-08");
 
 		week01.click(function(){
-			select_week(week01, content01, [week02, week03, week04, week05, week06, week07], [content02, content03, content04, content05, content06, content07]);
+			select_week(week01, content01, [week02, week03, week04, week05, week06, week07, week08], [content02, content03, content04, content05, content06, content07, content08]);
 		});
 
 		week02.click(function(){
-			select_week(week02, content02, [week01, week03, week04, week05, week06, week07], [content01, content03, content04, content05, content06, content07]);
+			select_week(week02, content02, [week01, week03, week04, week05, week06, week07, week08], [content01, content03, content04, content05, content06, content07, content08]);
 		});
 
 		week03.click(function(){
-			select_week(week03, content03, [week01, week02, week04, week05, week06, week07], [content01, content02, content04, content05, content06, content07]);
+			select_week(week03, content03, [week01, week02, week04, week05, week06, week07, week08], [content01, content02, content04, content05, content06, content07, content08]);
 		});
 
 		week04.click(function(){
-			select_week(week04, content04, [week01, week02, week03, week05, week06, week07], [content01, content02, content03, content05, content06, content07]);
+			select_week(week04, content04, [week01, week02, week03, week05, week06, week07, week08], [content01, content02, content03, content05, content06, content07, content08]);
 		});
 
 		week05.click(function(){
-			select_week(week05, content05, [week01, week02, week03, week04, week06, week07], [content01, content02, content03, content04, content06, content07]);
+			select_week(week05, content05, [week01, week02, week03, week04, week06, week07, week08], [content01, content02, content03, content04, content06, content07, content08]);
 		});
 
 		week06.click(function(){
-			select_week(week06, content06, [week01, week02, week03, week04, week05, week07], [content01, content02, content03, content04, content05, content07]);
+			select_week(week06, content06, [week01, week02, week03, week04, week05, week07, week08], [content01, content02, content03, content04, content05, content07, content08]);
 		});
 
 		week07.click(function(){
-			select_week(week07, content07, [week01, week02, week03, week04, week05, week06], [content01, content02, content03, content04, content05, content06]);
+			select_week(week07, content07, [week01, week02, week03, week04, week05, week06, week08], [content01, content02, content03, content04, content05, content06, content08]);
+		});
+
+		week08.click(function(){
+			select_week(week08, content08, [week01, week02, week03, week04, week05, week06, week07], [content01, content02, content03, content04, content05, content06, content07]);
 		});
 	});
 };

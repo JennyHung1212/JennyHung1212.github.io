@@ -38,64 +38,104 @@
 			<div class="content__content--text">
 				After lunch, we went to Central Market and Petaling Street. The stores in Central Market sell traditional handicrafts, clothing and artworks. We met an artist who made 捕夢網. He was very hospitable and tought us how to make one. He said that it took him years of practicing and thousands of pieces to make him a master. The 捕夢網 he made were very beautiful and exquisite. The last stop was the famous skyscraper KLCC. Unfortunately, the weather was bad in the evening so I couldn't take a good picture of KLCC. But we had delicious local desserts at Nyonya Colors at KLCC. A good dessert can always make the day.
 			</div>
-			<div class="content__content--image horizontal-double">
-				<div class="horizontal-double__frame1 inline-block img_lightbox">
-					<a href="" data-lightbox="week03-3"><img src="../../assets/images/week03/bowls.jpg"/></a>
+			<div class="content__content--image">
+				<div class="desktop-img horizontal-double">
+					<div class="horizontal-double__frame1 inline-block img_lightbox">
+						<a href="" data-lightbox="week03-3"><img src="../../assets/images/week03/bowls.jpg"/></a>
+					</div>
+					<div class="horizontal-double__frame2 inline-block img_lightbox">
+						<a href="" data-lightbox="week03-3"><img src="../../assets/images/week03/nyonya.jpg"/></a>
+					</div>
+					<div class="horizontal-double__annotation">1) The bowls made of coconut shell from Central Market. 2) The colorful nyonya desserts. They look good and taste even better!</div>	
 				</div>
-				<div class="horizontal-double__frame2 inline-block img_lightbox">
-					<a href="" data-lightbox="week03-3"><img src="../../assets/images/week03/nyonya.jpg"/></a>
+				<div class="mobile-img swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../../assets/images/week03/bowls.jpg"/></div>
+						<div class="swiper-slide"><img src="../../assets/images/week03/nyonya.jpg"/></div>
+					</div>
+					<div class="swiper-button-next"></div>
+    			<div class="swiper-button-prev"></div>
 				</div>
-				<div class="horizontal-double__annotation">1) The bowls made of coconut shell from Central Market. 2) The colorful nyonya desserts. They look good and taste even better!</div>
 			</div>
 			<div class="content__content--text">
 				The next day is even more exciting! We had 辣椒板麵 as breakfast. The noodle tasted super good with the half-cooked egg and paprika in it. After breakfast, we headed to Batu Caves, a limestone hill that has a series of caves and cave temples. The stairs to the caves are colorful and there were many monkeys around the caves. The Buddha statue standing at the entrance of the cave is very tall and solemn.
 			</div>
-			<div class="content__content--image mixed-triple">
-				<div class="inline-block">
-					<div class="mixed-triple__frame1 img_lightbox">
-  					<a href="" data-lightbox="week03-4"><img src="../../assets/images/week03/me.jpg"/></a>
-  				</div>
+			<div class="content__content--image">
+				<div class="desktop-img mixed-triple">
+					<div class="inline-block">
+						<div class="mixed-triple__frame1 img_lightbox">
+	  					<a href="" data-lightbox="week03-4"><img src="../../assets/images/week03/me.jpg"/></a>
+	  				</div>
+					</div>
+					<div class="inline-block">
+						<div class="mixed-triple__frame2 img_lightbox">
+	  					<a href="" data-lightbox="week03-4"><img src="../../assets/images/week03/batu_caves.jpg"/></a>
+	  				</div>
+	  				<div class="mixed-triple__frame3 img_lightbox">
+	  					<a href="" data-lightbox="week03-4"><img src="../../assets/images/week03/staris.jpg"/></a>
+	  				</div>
+					</div>
+					<div class="mixed-triple__annotation">1) There is a temple below the cave. The sculptures on the wall are very fastidious. 2) Batu Caves 3) The entrance of the caves.</div>	
 				</div>
-				<div class="inline-block">
-					<div class="mixed-triple__frame2 img_lightbox">
-  					<a href="" data-lightbox="week03-4"><img src="../../assets/images/week03/batu_caves.jpg"/></a>
-  				</div>
-  				<div class="mixed-triple__frame3 img_lightbox">
-  					<a href="" data-lightbox="week03-4"><img src="../../assets/images/week03/staris.jpg"/></a>
-  				</div>
+				<div class="mobile-img swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../../assets/images/week03/batu_caves.jpg"/></div>
+						<div class="swiper-slide"><img src="../../assets/images/week03/staris.jpg"/></div>
+					</div>
+					<div class="swiper-button-next"></div>
+    			<div class="swiper-button-prev"></div>
 				</div>
-				<div class="mixed-triple__annotation">1) There is a temple below the cave. The sculptures on the wall are very fastidious. 2) Batu Caves 3) The entrance of the caves.</div>
 			</div>
 			<div class="content__content--text">
 				In the afternoon, we went to Putrajaya, where Perdana Putra, others government agencies and Putra Mosque located at. The green-domed Perdana Putra contains the prime minister’s office complex. In front of the Perdana Putra is a big plaza and next to the plaza is Putra Mosque, made from rose-colored granite with a pink dome. There were two hours left until the opening hours of the mosque, so we just walked around the plaza and took lots of great piectures.
 			</div>
-			<div class="content__content--image horizontal-double">
-				<div class="horizontal-double__frame1 inline-block img_lightbox">
-					<a href="" data-lightbox="week03-5"><img src="../../assets/images/week03/perdana.jpg"/></a>
+			<div class="content__content--image">
+				<div class="desktop-img horizontal-double">
+					<div class="horizontal-double__frame1 inline-block img_lightbox">
+						<a href="" data-lightbox="week03-5"><img src="../../assets/images/week03/perdana.jpg"/></a>
+					</div>
+					<div class="horizontal-double__frame2 inline-block img_lightbox">
+						<a href="" data-lightbox="week03-5"><img src="../../assets/images/week03/mosque.jpg"/></a>
+					</div>
+					<div class="horizontal-double__annotation">1) There are a group of scooter riders with different colors of scooters in front of the Perdana Putra 2) The beautful pink mosque!</div>	
 				</div>
-				<div class="horizontal-double__frame2 inline-block img_lightbox">
-					<a href="" data-lightbox="week03-5"><img src="../../assets/images/week03/mosque.jpg"/></a>
+				<div class="mobile-img swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../../assets/images/week03/perdana.jpg"/></div>
+						<div class="swiper-slide"><img src="../../assets/images/week03/mosque.jpg"/></div>
+					</div>
+					<div class="swiper-button-next"></div>
+    			<div class="swiper-button-prev"></div>
 				</div>
-				<div class="horizontal-double__annotation">1) There are a group of scooter riders with different colors of scooters in front of the Perdana Putra 2) The beautful pink mosque!</div>
 			</div>
 			<div class="content__content--text">
 				The last stop is the Moroccan Pavilion of the Putrajaya Botanical Garden. We didn't walk around the whole Botanical Garden, only stayed at the Moroccan-style garden. The pavilion in the garden is the color of dusty rose, so elegant and luscious. If there were more time, I really wanted to walk around the whole garden. The garden spans over an area of 93 hectares. There are a big lake,  palm hill and floral gardens. It must be nice to spend a relaxing afternoon in there.
 			</div>
-			<div class="content__content--image mixed-triple">
-				<div class="inline-block">
-					<div class="mixed-triple__frame1 img_lightbox">
-  					<a href="" data-lightbox="week03-6"><img src="../../assets/images/week03/moroccan_pavilion.jpg"/></a>
-  				</div>
+			<div class="content__content--image">
+				<div class="desktop-img mixed-triple">
+					<div class="inline-block">
+						<div class="mixed-triple__frame1 img_lightbox">
+	  					<a href="" data-lightbox="week03-6"><img src="../../assets/images/week03/moroccan_pavilion.jpg"/></a>
+	  				</div>
+					</div>
+					<div class="inline-block">
+						<div class="mixed-triple__frame2 img_lightbox">
+	  					<a href="" data-lightbox="week03-6"><img src="../../assets/images/week03/moroccan_pavilion-2.jpg"/></a>
+	  				</div>
+	  				<div class="mixed-triple__frame3 img_lightbox">
+	  					<a href="" data-lightbox="week03-6"><img src="../../assets/images/week03/moroccan_pavilion-3.jpg"/></a>
+	  				</div>
+					</div>
+					<div class="mixed-triple__annotation">Moroccan Pavilion of the Putrajaya Botanical Garden.</div>	
 				</div>
-				<div class="inline-block">
-					<div class="mixed-triple__frame2 img_lightbox">
-  					<a href="" data-lightbox="week03-6"><img src="../../assets/images/week03/moroccan_pavilion-2.jpg"/></a>
-  				</div>
-  				<div class="mixed-triple__frame3 img_lightbox">
-  					<a href="" data-lightbox="week03-6"><img src="../../assets/images/week03/moroccan_pavilion-3.jpg"/></a>
-  				</div>
+				<div class="mobile-img swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../../assets/images/week03/moroccan_pavilion-2.jpg"/></div>
+						<div class="swiper-slide"><img src="../../assets/images/week03/moroccan_pavilion-3.jpg"/></div>
+					</div>
+					<div class="swiper-button-next"></div>
+    			<div class="swiper-button-prev"></div>
 				</div>
-				<div class="mixed-triple__annotation">Moroccan Pavilion of the Putrajaya Botanical Garden.</div>
 			</div>
 			<div class="content__content--text">
 				Though the trip is a little bit short, I stil had a really good time with Lisa and her families. They not only let me stayed at their home, drove me around the city and took me to lunch and dinner. When they visit Taiwan, the treat is on me!
@@ -113,6 +153,7 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/scss/layout";
 @import "../../assets/scss/content";
+@import "../../assets/scss/swiper";
 
 .kl-schedule {
 	font-family: "Courier New", Courier, monospace;
@@ -122,7 +163,7 @@ export default {
 	margin-bottom: 20px;
 
 	@media #{$mobile} {
-		width: 100%;
+		width: 98%;
     margin-left: -40px;
 	}
 
