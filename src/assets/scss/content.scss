@@ -3,6 +3,10 @@
 	padding: 10px 240px 40px 20px;
 	height: 100%;
 
+	@media #{$tablet-big} {
+		padding: 10px 40px 40px 10px;
+	}
+
 	@media #{$mobile} {
 		padding: 10px 25px;
 	}
@@ -57,8 +61,12 @@
     overflow-y: hidden;
     margin: auto;
 
-    @media #{$mobile} {
-    	width: 100%;
+    @media #{$tablet-big} {
+    	width: 70%;
+    	height: auto;
+    }
+    @media #{$tablet} {
+    	width: 90%;
     	height: auto;
     }
 	}
@@ -86,6 +94,12 @@
     height: 300px;
     overflow-y: hidden;
     margin-right: 10px;
+    vertical-align: middle;
+
+    @media #{$tablet-big} {
+    	width: 50%;
+    	height: auto;
+    }
 	}
 
 	&__frame2 {
@@ -93,6 +107,11 @@
     height: 300px;
     overflow-y: hidden;
     margin-right: -15%;
+    vertical-align: middle;
+    @media #{$tablet-big} {
+    	width: 50%;
+    	height: auto;
+    }
 	}
 
 	img {
@@ -115,10 +134,13 @@
 		width: 360px;
 		height: 530px;
 		margin-right: 10px;
-
-    @media #{$mobile} {
-    	width: 130px;
-    	height: 230px;
+    @media #{$tablet-big} {
+    	width: 290px;
+    	height: 410px;
+    }
+    @media #{$tablet} {
+    	width: 220px;
+    	height: 330px;
     }
 
 		img {
@@ -131,10 +153,13 @@
 		width: 400px;
 		height: 260px;
 		margin-bottom: 10px;
-		
-    @media #{$mobile} {
-    	width: 150px;
-    	height: 110px;
+    @media #{$tablet-big} {
+    	width: 300px;
+    	height: 200px;
+    }		
+    @media #{$tablet} {
+    	width: 240px;
+    	height: 160px;
     }
 
 		img {
@@ -146,10 +171,13 @@
 		overflow-y: hidden;
 		width: 400px;
 		height: 260px;
-
-    @media #{$mobile} {
-    	width: 150px;
-    	height: 110px;
+    @media #{$tablet-big} {
+    	width: 300px;
+    	height: 200px;
+    }	
+    @media #{$tablet} {
+    	width: 240px;
+    	height: 160px;
     }
 
 		img {

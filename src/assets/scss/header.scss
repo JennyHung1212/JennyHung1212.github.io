@@ -6,8 +6,9 @@
   left: 0;
   width: 100vw;
   text-align: right;
+  z-index: 100;
 
-  @media #{$mobile} {
+  @media #{$tablet-big} {
     text-align: center;
   }
 
@@ -16,7 +17,7 @@
     margin-right: 50px;
     margin-top: 15px;
 
-    @media #{$mobile} {
+    @media #{$tablet} {
       margin-right: 0;
     }
   }
@@ -29,7 +30,7 @@
     height: 27px;
     width: 35px;
     cursor: pointer;
-    z-index: 200;
+    z-index: 250;
     transition: opacity .25s ease;
 
     @media #{$mobile} {

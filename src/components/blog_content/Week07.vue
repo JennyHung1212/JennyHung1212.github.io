@@ -12,7 +12,7 @@
 				<span>03/08</span> River Safari → Night Safari
 			</div>
 			<div class="content__content--text">
-				The River Safari and Night Safari are AMAZING!! The tickets are expensize but totally worth it. River Safari is a river-themed park. There are Mississipi River ( 密西西比河 ), Congo River ( 剛果河 ), Nile River ( 尼羅河 ), Ganges River ( 恆河 ), Mary River ( 瑪麗河 ), Mekong River ( 湄公河 ), Yangtze River ( 長江 ), and Amazon River ( 雅馬遜河 ). Each river section has their own species with some I've never seen before. You can closely observe the river creatures. The park is not so big, you can walk around it within an hour. However, we spent the whole afternoon in it because it's so much fun.
+				The River Safari and Night Safari are AMAZING!! The tickets are expensive but totally worth it. River Safari is a river-themed park. There are Mississipi River ( 密西西比河 ), Congo River ( 剛果河 ), Nile River ( 尼羅河 ), Ganges River ( 恆河 ), Mary River ( 瑪麗河 ), Mekong River ( 湄公河 ), Yangtze River ( 長江 ), and Amazon River ( 雅馬遜河 ). Each river section has their own species with some I've never seen before. You can closely observe the river creatures. The park is not so big, you can walk around it within an hour. However, we spent the whole afternoon in it because it's so much fun.
 			</div>
 			<div class="content__content--image">
 				<div class="desktop-img horizontal-double">
@@ -34,14 +34,14 @@
 				</div>
 			</div>
 			<div class="content__content--text">
-				The Night Safari was even more fun! We got to explore the life of nocturnal animals. We first walked around the park on feet. Sometimes it was really hard to spot on the animal because it was really dark. After walking around, we hopped on the car that goes around the park. The car took us to a different secton which is outside the walking zone. We saw some Malayan tapirs and deers walking on the street and heard some might roar of the male lions. After walking whole day, we were both very exhausted but we both agreed that the parks were worth the money and worth the time.
+				The Night Safari was even more fun! We got to explore the life of nocturnal animals. We first walked around the park on feet. Sometimes it was really hard to spot on the animals because it was really dark. After walking around, we hopped on the car that goes around the park. The car took us to a different area which was outside the walking zone. We saw some Malayan tapirs and deers walking on the street and heard some mighty roar of the male lions. After walking whole day, we were both very exhausted but we both agreed that the parks were worth the money and worth the time.
 			</div>
 			<br/><br/>
 			<div class="schedule">
 				<span>03/09</span> YMCA Flag Day → Zam Zam → Masjid Sultan → Haji Lane → Abdul Gafoor Mosque → Little India Arcade → Chinatown → Maxwell Food Centre → Buddha Tooth Relic Temple → Sri Mariamman Temple → Masjid Jamae → Clarke Quay
 			</div>
 			<div class="content__content--text">
-				This morning was YMCA Flag Day, which was our last CIP event. Our mission was raising money from people on the streets. Some people took out their coins without any word; some people avoided us and walked fast past us; some gave us warm simles; some didn't even take a look while we talked. This event changed my attitude toward this kind of fund-raising event. I used to be the one igonring them. But little by little, less could be more if every one of us is willing to be a part of it. After four hours standing on the street, my tin was half full. I'm grateful to those who were willing to stop by and took out their wallets. Their coins together are what make this world a little bit better.
+				This morning was YMCA Flag Day, which was our last CIP event. Our mission was raising money from people on the streets. Some people took out their coins without any word; some people avoided us and walked fast past us; some gave us warm smiles; some didn't even take a look while we talked. This event changed my attitude toward this kind of fund-raising event. I used to be the one igonring them. But little by little, less could be more if every one of us is willing to be a part of it. After four hours standing on the street, my tin was half full. I'm grateful to those who were willing to stop by and took out their wallets. Their coins together are what make this world a little bit better.
 			</div>
 			<div class="content__content--image horizontal-single">
 				<div class="horizontal-single__frame img_lightbox">
@@ -50,7 +50,7 @@
 				<div class="horizontal-single__annotation">Alaska and her cute daughter came to Mac Pherson Station and bought us sugar cane juice! Thank you so much Alaska.</div>
 			</div>
 			<div class="content__content--text">
-				After the YMCA Flag Day, I went to Bugis to meet with my boyfriend. We ate lunch at Zam Zam. The food their were really good. We had Beef Murtabak and Mutton Mee Goreng. Murtabak was like Roti Prata, but had eggs, onion and meat inside. The color of Mee Goreng was red! The sauce was really good, and I never tasted that taste before. After the lunch, we visited Masjid Sultan and Haji Lane. The houses along Haji lane were colorful and with graffitis on the wall. I bought a dress in one of the stores because it was super hot and I couldn't spend any other minute in my pants.
+				After the YMCA Flag Day, I went to Bugis to meet with my boyfriend. We ate lunch at Zam Zam. The food their were really good. We had Beef Murtabak and Mutton Mee Goreng. Murtabak was like Roti Prata, but had eggs, onion and minced beef inside. The color of Mee Goreng was red! The sauce was really good, and I never tasted that taste before. After the lunch, we visited Masjid Sultan and Haji Lane. The houses along Haji lane were colorful and with graffitis on the wall. I bought a dress in one of the stores because it was super hot and I couldn't spend any other minute in my pants.
 			</div>
 			<div class="content__content--image">
 				<div class="desktop-img horizontal-double">
@@ -81,7 +81,7 @@
 				<div class="horizontal-single__annotation">Abdul Gafoor Mosque, which was constructed in 1907.</div>
 			</div>
 			<div class="content__content--text">
-				Then we took MRT to China Town, and ate 天天海南雞飯 in Maxwell Food Center. 天天海南雞 is the best chicken rice I've tasted so far! I would definitely visit it again someday. After dinner, we stopped at Buddha Tooth Relic Temple, Sri Mariamman Temple and Masjid Jamae to take some pictures. They are all on the same street within 10 minitues walking distance. We bought 東興蛋塔 on our way to Clarke Quay. The egg tart was very soft, delicious and tasted differntly from all the egg tarts I've tasted before. After having a really nice dinner with Mike and Victoria at Clarke Quay, me and my boyfriend sat at the riverside and chatted in the cozy wind. I have to say that it was a wonderful spot to sit down and talk. The view is nice, and can listen to the live band from the bar across the river. What a nice day full of delicious cuisines and warm talk!
+				Then we took MRT to China Town, and ate 天天海南雞飯 in Maxwell Food Center. 天天海南雞 is the best chicken rice I've tasted so far! I would definitely visit it again someday. After dinner, we stopped at Buddha Tooth Relic Temple, Sri Mariamman Temple and Masjid Jamae to take some pictures. They are all on the same street within 10 minutes walking distance. We bought 東興蛋塔 on our way to Clarke Quay. The egg tart was very soft, delicious and tasted differently from all the egg tarts I've tasted before. After having a really nice dinner with Mike and Victoria at Clarke Quay, me and my boyfriend sat at the riverside and chatted in the cozy wind. I have to say that it was a wonderful spot to sit down and talk. The view is nice, and can listen to the live band from the bar across the river. What a nice day full of delicious cuisines and warm talk!
 			</div>
 			<div class="content__content--image">
 				<div class="desktop-img horizontal-double">
@@ -115,7 +115,7 @@
 				<span>03/10</span> Universal Studio → Gardens by the Bay
 			</div>
 			<div class="content__content--text">
-				We were super lucky today that there weren't many tourists at Universal Studio! Last time I was here was during the Chinese New Year holiday, we had to queue for at least fourty mintures for every facility. This time we don't even get in line at some spot! We played almost every facility and had a really great time.
+				We were super lucky today that there weren't many tourists at Universal Studio! Last time I was here was during the Chinese New Year holiday, we had to queue for at least forty minutes for every facility. This time we didn't even get in line at some spot! We played almost every facility and had a really great time.
 			</div>
 			<div class="content__content--image horizontal-single">
 				<div class="horizontal-single__frame img_lightbox">

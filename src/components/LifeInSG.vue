@@ -1,33 +1,33 @@
 <template>
   <div class="row">
-  	<div class="col-md-3 col-xs-12 sidebar-left">
+  	<div class="col-md-3 col-sm-3 col-xs-12 sidebar-left">
   		<div class="sidebar-left__title">
   			<img src="../assets/images/life_in_sg.png" alt="Life in Singapore"/>
   		</div>
   		<div class="sidebar-left__menu">
-  			<div class="sg-week-01 selected"><span>WEEK 01</span><img src="../assets/images/right_arrow.png"/></div>
-  			<div class="sg-week-02 not-selected"><span>WEEK 02</span><img src="../assets/images/right_arrow.png"/></div>
-  			<div class="sg-week-03 not-selected"><span>WEEK 03</span><img src="../assets/images/right_arrow.png"/></div>
-  			<div class="sg-week-04 not-selected"><span>WEEK 04</span><img src="../assets/images/right_arrow.png"/></div>
-  			<div class="sg-week-05 not-selected"><span>WEEK 05</span><img src="../assets/images/right_arrow.png"/></div>
-  			<div class="sg-week-06 not-selected"><span>WEEK 06</span><img src="../assets/images/right_arrow.png"/></div>
-  			<div class="sg-week-07 not-selected"><span>WEEK 07</span><img src="../assets/images/right_arrow.png"/></div>
-  			<div class="sg-week-08 not-selected"><span>WEEK 08</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-01 selected"><span>Week One</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-02 not-selected"><span>Week Two</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-03 not-selected"><span>Week Three</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-04 not-selected"><span>Week Four</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-05 not-selected"><span>Week Five</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-06 not-selected"><span>Week Six</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-07 not-selected"><span>Week Seven</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-08 not-selected"><span>Week Eight</span><img src="../assets/images/right_arrow.png"/></div>
   		</div>
   	</div>
   	<div class="sidebar-left-mobile">
   		<div class="sidebar-left-mobile__menu fade-in-left">
-  			<div class="sg-week-01 selected"><span>WEEK 01</span><img src="../assets/images/right_arrow.png"/></div>
-				<div class="sg-week-02 not-selected"><span>WEEK 02</span><img src="../assets/images/right_arrow.png"/></div>
-				<div class="sg-week-03 not-selected"><span>WEEK 03</span><img src="../assets/images/right_arrow.png"/></div>
-				<div class="sg-week-04 not-selected"><span>WEEK 04</span><img src="../assets/images/right_arrow.png"/></div>
-				<div class="sg-week-05 not-selected"><span>WEEK 05</span><img src="../assets/images/right_arrow.png"/></div>
-				<div class="sg-week-06 not-selected"><span>WEEK 06</span><img src="../assets/images/right_arrow.png"/></div>
-				<div class="sg-week-07 not-selected"><span>WEEK 07</span><img src="../assets/images/right_arrow.png"/></div>
-				<div class="sg-week-08 not-selected"><span>WEEK 08</span><img src="../assets/images/right_arrow.png"/></div>
+  			<div class="sg-week-01 selected"><span>Week One</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-02 not-selected"><span>Week Two</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-03 not-selected"><span>Week Three</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-04 not-selected"><span>Week Four</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-05 not-selected"><span>Week Five</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-06 not-selected"><span>Week Six</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-07 not-selected"><span>Week Seven</span><img src="../assets/images/right_arrow.png"/></div>
+				<div class="sg-week-08 not-selected"><span>Week Eight</span><img src="../assets/images/right_arrow.png"/></div>
   		</div>
   	</div>
-  	<div class="col-md-9 col-xs-12 invisible-scrollbar">
+  	<div class="col-md-9 col-sm-9 col-xs-12 invisible-scrollbar">
  			<Week01/>
   		<Week02/>
   		<Week03/>

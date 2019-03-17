@@ -9,6 +9,9 @@
 
 		img {
 			width: 300px;
+			@media #{$tablet-big} {
+				width: 90%;
+			}
 		}
 	}
 
@@ -22,9 +25,16 @@
     padding: 0 15px;
     text-align: right;
 
+    @media #{$tablet-big} {
+    	line-height: 30px;
+    }
+
     span {
     	font-size: 24px;
     	font-weight: 900;
+    	@media #{$tablet-big} {
+    		font-size: 20px;
+    	}
     }
 
     img {
@@ -48,7 +58,7 @@
 	opacity: 0;
 	transition: opacity .35s, visibility .35s, width .35s;
   overflow: hidden;
-  z-index: 50;
+  z-index: 200;
 
   -webkit-box-shadow: 14px 0px 20px 10px rgba(0,0,0,0.4);
 	-moz-box-shadow: 14px 0px 20px 10px rgba(0,0,0,0.4);
@@ -116,6 +126,6 @@
   }
   100% {
     opacity: 1;
-    padding-left: 25vw;
+    padding-left: 20vw;
   }
 }
