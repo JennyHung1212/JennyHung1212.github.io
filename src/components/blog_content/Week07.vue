@@ -85,10 +85,10 @@
 			</div>
 			<div class="content__content--image">
 				<div class="desktop-img horizontal-double">
-					<div class="horizontal-double__frame1 inline-block img_lightbox">
+					<div class="horizontal-double__frame1 inline-block img_lightbox" style="margin-bottom: 5px">
 						<a href="" data-lightbox="week07-5"><img src="../../assets/images/week07/tiantian.jpg"/></a>
 					</div>
-					<div class="horizontal-double__frame2 inline-block img_lightbox">
+					<div class="horizontal-double__frame2 inline-block img_lightbox" style="margin-bottom: 5px">
 						<a href="" data-lightbox="week07-5"><img src="../../assets/images/week07/chicken.jpg"/></a>
 					</div>
 					<div class="horizontal-double__frame1 inline-block img_lightbox">
@@ -115,7 +115,7 @@
 				<span>03/10</span> Universal Studio → Gardens by the Bay
 			</div>
 			<div class="content__content--text">
-				We were super lucky today that there weren't many tourists at Universal Studio! Last time I was here was during the Chinese New Year holiday, we had to queue for at least forty minutes for every facility. This time we didn't even get in line at some spot! We played almost every facility and had a really great time.
+				There are 7 areas in Universal Studio. The first one is Hollywood, which is mainly composed of gift shopes. The second area is New Work. There you can watch several different shows and enjoy the street views. The third and also the most thrilling area is Sci-Fi City. The theme here is the popular movie Transformers. We played a roller coaster that is 14 storeys high and a indoor 3D ride. I played the 3D ride the first time I was there. The excitement and the degree of fun didn't cut back even for the second time. The next area is Ancient Egypt where we played an indoor roller coaster in a dark pyramid. Next is the biggest area The Lost World. Here you can take an adventure in Jurassic Park, enjoy a thrilling river raft ride and watch a live water show. We played the river raft ride and got pretty wet. Next one, and probably the one almost every little girl wants to go, is Far Far Away. There is a castle where you can enjoy Shrek 4D adventure and Donkey LIVE. If you are a big fan of Shrek, then this is definitely a place for you. The last area is Madagascar, which is a family-friendly area. The scenes here are very stunning and exquisite, especially the one in the cruise where you can enjoy a river boat ride with characters of Madagascar. We were super lucky today that there weren't many tourists at Universal Studio! Last time I was here was during the Chinese New Year holiday, we had to queue for at least forty minutes for every facility. This time we didn't even get in line at some spot! We played almost every facility and had a really really great time. 
 			</div>
 			<div class="content__content--image horizontal-single">
 				<div class="horizontal-single__frame img_lightbox">

@@ -74,10 +74,10 @@
 			</div>
 			<div class="content__content--image">
 				<div class="desktop-img horizontal-double">
-					<div class="horizontal-double__frame1 inline-block img_lightbox">
+					<div class="horizontal-double__frame1 inline-block img_lightbox" style="margin-bottom: 5px">
 						<a href="" data-lightbox="week02-4"><img src="../../assets/images/week02/merlion.jpg"/></a>
 					</div>
-					<div class="horizontal-double__frame2 inline-block img_lightbox">
+					<div class="horizontal-double__frame2 inline-block img_lightbox" style="margin-bottom: 5px">
 						<a href="" data-lightbox="week02-4"><img src="../../assets/images/week02/skytree.jpg"/></a>
 					</div>
 					<div class="horizontal-double__frame1 inline-block img_lightbox">
