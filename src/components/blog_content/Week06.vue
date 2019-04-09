@@ -17,9 +17,9 @@
 				<div class="horizontal-single__annotation">The ArtScience Museum.</div>
 			</div>
 			<div class="content__content--text">
-				The first exhibit was FUTURE WORLD: WHERE ART MEETS SCIENCE. This is a permenant exhibit that is suitable for all ages. There are a lot of interactive devices and facilities that allow you to play with lights and sounds. My favorite section was "Space". There were thousands little light bulbs hanged to the ceiling and covered all the sapce from the ceiling to the floor. The color of the light bulbs changed along with the dreamy music. The walls, the ceiling and the floor were all covered by mirrors, and gave you the illusion that you're standing in the spaceless universe. 
+				The first exhibit was FUTURE WORLD: WHERE ART MEETS SCIENCE. This is a permenant exhibit that is suitable for all ages. There are a lot of interactive devices and facilities that allow you to play with lights and sounds. My favorite section was "Space". There were thousands little light bulbs hanged to the ceiling and covered all the sapce from the ceiling to the floor. The color of the light bulbs changed along with the dreamy music. The walls, the ceiling and the floor were all covered by mirrors, giving you the illusion that you're standing in the spaceless universe. 
 				<br/><br/>
-				Next exhibit was called ALL POSSIBLE PATHS: RICHARD FEYNMAN'S CURIOUS LIFE. Feynman was one of the most influential physicists of the 20th cenury. He was know for integral formulation of quantum mechanics, the theory of quantum electrodynamics, etc. His findings won him a Nobel Prize in Physics in 1965. The exhibits show how Feynman's curiosity his unconventional thinking led him to differnet life's paths. Despite his great contribution in science, he also spent lots of time pursuing art and music as personal interest. We should never limit ourselves to only one path in our lives. Just like Feynman said, I don't know anything but I do know that everythin is interesting if you go into it deeply enough.
+				Next exhibit was called ALL POSSIBLE PATHS: RICHARD FEYNMAN'S CURIOUS LIFE. Feynman was one of the most influential physicists of the 20th cenury. He was know for integral formulation of quantum mechanics, the theory of quantum electrodynamics, etc. His findings won him a Nobel Prize in Physics in 1965. The exhibits show how Feynman's curiosity and his unconventional thinking led him to differnet life's paths. Despite his great contribution in science, he also spent lots of time pursuing art and music as personal interest. We should never limit ourselves to only one path in our lives. Just like Feynman said, "I don't know anything but I do know that everything is interesting if you go into it deeply enough."
 			</div>
 			<div class="quote">
 				<div class="quote__text">
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			<div class="content__content--text">
-				The last exhibit was MINIMALISM: SPACE, LIGHT, OBJECT. The exhibit included painting, sculpture, installation and music. To be honest, I'm not an art person, so I wasn't really moved by the art works. But I did enjoy the unique spacial structure of the building and the art spirit. There was a free exhibition at the top level of the museum. You can lie on the floor while enjoying a short film about nature project on the tall wall of exhibit hall.
+				The last exhibit was MINIMALISM: SPACE, LIGHT, OBJECT. The exhibit included painting, sculpture, installation and music. To be honest, I'm not an art person, so I wasn't really moved by the art works. But I did enjoy the unique spacial structure of the building and the art spirit. There was a free exhibition at the top level of the museum. You can lie on the floor while enjoying a short film about nature projected on the tall wall of exhibit hall.
 			</div>
 			<div class="content__content--image">
 				<div class="desktop-img horizontal-double">
@@ -52,7 +52,7 @@
 				</div>
 			</div>
 			<div class="content__content--text">
-				Saturday is the third CIP event. We went to All Saints Home to help with the birthday celebration event. All Saints Home is a Voluntary Welfare Organisation (VWO) that provides comprehensive and professional eldercare services to the aged of all backgrounds. Most of the residents there are elderly people. Some of them are sill in good condition, but many of them should move in wheelchairs or lie in bed all time. It's really touching that there are a group of people who are willing to give their time every weekend to accompany the elders. After the birthday celebration event, we separated in to two groups and sang songs to the residents there. Most Chinese and Hokkian songs in the song book are popular songs twenty years ago in Taiwan, so I could sing alone most of the time. It was a lot of fun!
+				Saturday is the third CIP event. We went to All Saints Home to help with the birthday celebration event. All Saints Home is a Voluntary Welfare Organisation (VWO) that provides comprehensive and professional eldercare services to the ages of all backgrounds. Most of the residents there are elderly people. Some of them are sill in good condition, but many of them should move in wheelchairs or lie in bed all time. It's really touching that there are a group of people who are willing to devote their time every weekend to accompany the elders. After the birthday celebration event, we separated into two groups and sang songs to the residents there. Most Chinese and Hokkian songs in the song book are popular songs twenty years ago in Taiwan, so I could sing alone most of the time. It was a lot of fun!
 			</div>
 
 		</div>

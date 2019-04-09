@@ -7,7 +7,7 @@
 			2019/02/04 ~ 2019/02/10
 		</div>
 		<div class="content__content">
-			<div class="kl-schedule">
+			<div class="schedule">
 				<span>02/08</span> SIN → KUL → No-name nightmarket near Lisa's home <br><br>
 				<span>02/09</span> Istana Negara → Kuala Lumpur Station / Keretapi Tanah Melayu Berhad → ICC Pudu → Central Market → Petaling Street → KLCC → Mum's Place (restaurant)<br><br>
 				<span>02/10</span> Restoran Super Kitchen Chilli Pan Mee → Batu Caves → Village Park (restaurant) → Putra Mosque → Botanical Garden → Al Diafah Express (restaurant) <br><br>
@@ -154,22 +154,4 @@ export default {
 @import "../../assets/scss/layout";
 @import "../../assets/scss/content";
 @import "../../assets/scss/swiper";
-
-.kl-schedule {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 15px;
-	background-color: rgba(105, 105, 105, .1);
-	padding: 40px;
-	margin-bottom: 20px;
-
-	@media #{$mobile} {
-		width: 98%;
-    margin-left: -40px;
-	}
-
-	span {
-		font-weight: bold;
-		color: $indianred;
-	}
-}
 </style>

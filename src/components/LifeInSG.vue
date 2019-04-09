@@ -14,6 +14,8 @@
   			<div class="sg-week-07 not-selected"><span>Week Seven</span><img src="../assets/images/right_arrow.png"/></div>
   			<div class="sg-week-08 not-selected"><span>Week Eight</span><img src="../assets/images/right_arrow.png"/></div>
   			<div class="sg-week-09 not-selected"><span>Week Nine</span><img src="../assets/images/right_arrow.png"/></div>
+        <div class="sg-week-10 not-selected"><span>Week Ten</span><img src="../assets/images/right_arrow.png"/></div>
+        <div class="sg-week-11 not-selected"><span>Week Eleven</span><img src="../assets/images/right_arrow.png"/></div>
   		</div>
   	</div>
   	<div class="sidebar-left-mobile">
@@ -27,6 +29,8 @@
 				<div class="sg-week-07 not-selected"><span>Week Seven</span><img src="../assets/images/right_arrow.png"/></div>
 				<div class="sg-week-08 not-selected"><span>Week Eight</span><img src="../assets/images/right_arrow.png"/></div>
 				<div class="sg-week-09 not-selected"><span>Week Nine</span><img src="../assets/images/right_arrow.png"/></div>
+        <div class="sg-week-10 not-selected"><span>Week Ten</span><img src="../assets/images/right_arrow.png"/></div>
+        <div class="sg-week-11 not-selected"><span>Week Eleven</span><img src="../assets/images/right_arrow.png"/></div>
   		</div>
   	</div>
   	<div class="col-md-9 col-sm-9 col-xs-12 invisible-scrollbar">
@@ -39,6 +43,8 @@
   		<Week07/>
   		<Week08/>
   		<Week09/>
+      <Week10/>
+      <Week11/>
   	</div>
   </div>
 </template>
@@ -53,6 +59,8 @@ import Week06 from "./blog_content/Week06";
 import Week07 from "./blog_content/Week07";
 import Week08 from "./blog_content/Week08";
 import Week09 from "./blog_content/Week09";
+import Week10 from "./blog_content/Week10";
+import Week11 from "./blog_content/Week11";
 
 import {left_menu} from "../assets/js/life_in_sg.js";
 left_menu();
@@ -68,7 +76,9 @@ export default {
 		Week06,
 		Week07,
 		Week08,
-		Week09
+		Week09,
+    Week10,
+    Week11
 	}
 };
 
