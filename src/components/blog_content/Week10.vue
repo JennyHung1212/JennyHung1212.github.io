@@ -225,7 +225,7 @@
 				</div>
 			</div>
 			<div class="content__content--text">
-				Overall, this solo trip went really well except I accidentally bought the wrong ticket of AO show. People in Ho Chi Minh City seem to enjoy their lives a lot. The local foods are all very cheap and delicious. The history of French coloniality brought different colors to this Asian city and made it even more attractive. I'll definitely visit there again in the future8
+				Overall, this solo trip went really well except I accidentally bought the wrong ticket of AO show. People in Ho Chi Minh City seem to enjoy their lives a lot. The local foods are all very cheap and delicious. The history of French coloniality brought different colors to this Asian city and made it even more attractive. I'll definitely visit there again in the future.
 			</div>
 		</div>
 	</div>

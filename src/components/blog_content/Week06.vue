@@ -1,7 +1,7 @@
 <template>
 	<div id="sg-week-06" class="content" style="display: none">
 		<div class="content__title">
-			ArtAcience Museum and the Third CIP<img src="../../assets/images/vertical_bars_sg.png"/>
+			ArtScience Museum and the Third CIP<img src="../../assets/images/vertical_bars_sg.png"/>
 		</div>
 		<div class="content__date">
 			2019/02/25 ~ 2019/03/03
