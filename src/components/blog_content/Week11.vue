@@ -8,10 +8,10 @@
 		</div>
 		<div class="content__content">
 			<div class="schedule">
-				<span>02/08</span> SIN → KUL → Jalan Petaling → The Attic Bar<br><br>
-				<span>02/09</span> Genting Highlands → Batu Caves → Bukit Bintang → Sun Fong Bak Kut Teh (restaurant) → The Rabbit Hole (bar) → The Roof Cafe<br><br>
-				<span>02/10</span> Lai Fong Restaurant → Central Market → Masjid Jamek Sultan Abdul Samad → Sultan Abdul Samad Building → Kuala Lumpur City Gallery → National Mosque → Planetarium Negara → Muzium Negara → KL Sentral → KLCC → Kim Soya Bean → PS 150 (bar)<br><br>
-				<span>02/11</span> KUL → SIN 
+				<span>04/04</span> SIN → KUL → Jalan Petaling → The Attic Bar<br><br>
+				<span>04/05</span> Genting Highlands → Batu Caves → Bukit Bintang → Sun Fong Bak Kut Teh (restaurant) → The Rabbit Hole (bar) → The Roof Cafe<br><br>
+				<span>04/06</span> Lai Fong Restaurant → Central Market → Masjid Jamek Sultan Abdul Samad → Sultan Abdul Samad Building → Kuala Lumpur City Gallery → National Mosque → Planetarium Negara → Muzium Negara → KL Sentral → KLCC → Kim Soya Bean → PS 150 (bar)<br><br>
+				<span>04/07</span> KUL → SIN 
 			</div>
 			<div class="content__content--text">
 				This is my second time to Kuala Lumpur this term, but I'm still very excited. The attractions I visited is very different from the last time. I went to the attractions that is outside the city and some restaurants only local people know last time, this time we stay in downtown area most of the time, and went to some really nice bars.
