@@ -4,7 +4,7 @@
   		<div class="sidebar-left__title">
   			<img src="../assets/images/life_in_sg.png" alt="Life in Singapore"/>
   		</div>
-  		<div class="sidebar-left__menu">
+  		<div class="sidebar-left__menu invisible-scrollbar">
   			<div class="sg-week-01 selected"><span>Week One</span><img src="../assets/images/right_arrow.png"/></div>
   			<div class="sg-week-02 not-selected"><span>Week Two</span><img src="../assets/images/right_arrow.png"/></div>
   			<div class="sg-week-03 not-selected"><span>Week Three</span><img src="../assets/images/right_arrow.png"/></div>
@@ -17,6 +17,8 @@
         <div class="sg-week-10 not-selected"><span>Week Ten</span><img src="../assets/images/right_arrow.png"/></div>
         <div class="sg-week-11 not-selected"><span>Week Eleven</span><img src="../assets/images/right_arrow.png"/></div>
         <div class="sg-week-12 not-selected"><span>Week Twelve</span><img src="../assets/images/right_arrow.png"/></div>
+        <div class="sg-week-13 not-selected"><span>Week Thirteen</span><img src="../assets/images/right_arrow.png"/></div>
+        <div class="sg-week-14 not-selected"><span>Week Fourteen</span><img src="../assets/images/right_arrow.png"/></div>
   		</div>
   	</div>
   	<div class="sidebar-left-mobile">
@@ -33,6 +35,8 @@
         <div class="sg-week-10 not-selected"><span>Week Ten</span><img src="../assets/images/right_arrow.png"/></div>
         <div class="sg-week-11 not-selected"><span>Week Eleven</span><img src="../assets/images/right_arrow.png"/></div>
         <div class="sg-week-12 not-selected"><span>Week Twelve</span><img src="../assets/images/right_arrow.png"/></div>
+        <div class="sg-week-13 not-selected"><span>Week Thirteen</span><img src="../assets/images/right_arrow.png"/></div>
+        <div class="sg-week-14 not-selected"><span>Week Fourteen</span><img src="../assets/images/right_arrow.png"/></div>
   		</div>
   	</div>
   	<div class="col-md-9 col-sm-9 col-xs-12 invisible-scrollbar">
@@ -48,6 +52,8 @@
       <Week10/>
       <Week11/>
       <Week12/>
+      <Week13/>
+      <Week14/>
   	</div>
   </div>
 </template>
@@ -65,6 +71,8 @@ import Week09 from "./blog_content/Week09";
 import Week10 from "./blog_content/Week10";
 import Week11 from "./blog_content/Week11";
 import Week12 from "./blog_content/Week12";
+import Week13 from "./blog_content/Week13";
+import Week14 from "./blog_content/Week14";
 
 import {left_menu} from "../assets/js/life_in_sg.js";
 left_menu();
@@ -83,7 +91,9 @@ export default {
 		Week09,
     Week10,
     Week11,
-    Week12
+    Week12,
+    Week13,
+    Week14
 	}
 };
 

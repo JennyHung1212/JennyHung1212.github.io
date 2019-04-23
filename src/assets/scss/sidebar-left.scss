@@ -1,14 +1,17 @@
 .sidebar-left {
 	padding: 10px;
+	max-height: calc(100vh - 80px);
  
 	&__title {
 		text-align: right;
-		@media #{$mobile} {
-			text-align: center;
+		height: 21%;
+
+		@media #{$tablet-big} {
+			height: auto;
 		}
 
 		img {
-			width: 300px;
+			width: 85%;
 			@media #{$tablet-big} {
 				width: 90%;
 			}
@@ -19,14 +22,16 @@
 		@media #{$mobile} {
 			display: none;
 		}
-
-		margin-top: 30px;
+		height: 72%;
+		margin-top: 10px;
     line-height: 40px;
-    padding: 0 15px;
+    padding: 20px 15px 5px 15px;
     text-align: right;
+    overflow-y: scroll; 
 
     @media #{$tablet-big} {
     	line-height: 30px;
+    	height: auto;
     }
 
     span {
@@ -34,6 +39,9 @@
     	font-weight: 900;
     	@media #{$tablet-big} {
     		font-size: 20px;
+    	}
+    	@media #{$tablet} {
+    		font-size: 18px;
     	}
     }
 
