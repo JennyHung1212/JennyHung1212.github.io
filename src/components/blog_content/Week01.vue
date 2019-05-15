@@ -43,7 +43,7 @@
 				<div class="horizontal-single__annotation">National Museum of Singapore, built in 1849.</div>
 			</div>
 			<div class="content__content--text">
-				The other worth-mentioning event is the first CIP activity arranged by TFI LEaRN Programme. Me, Kwangho and Ronald went to Redhill to help distributing food to needy families. The organization that hold the food distributing event is Apex Club of Bukit Timah. We took food, 紅包 and other daily supplies to the families on the list and wish them a happy Chinese new year. Although Singapore is one of the most modern and wealthy cities in the world, there are still many people struggling to live. There's nothing better then the smiles and the thankfulness we received on that hot Saturday afternnon. 施比受更有福！
+				The other worth-mentioning event is the first CIP activity arranged by TFI LEaRN Programme. Me, Kwangho and Ronald went to Redhill to help distributing food to needy families. The organization that hold the food distributing event is Apex Club of Bukit Timah. We took food, 紅包 and other daily supplies to the families on the list and wish them a happy Chinese new year. Although Singapore is one of the most modern and wealthy cities in the world, there are still many people struggling to live. There's nothing better then the smiles and the thankfulness we received on that hot Saturday afternoon. 施比受更有福！
 			</div>
 			<div class="content__content--image">
 				<div class="desktop-img mixed-triple">
