@@ -1,0 +1,139 @@
+.sidebar-left {
+	padding: 10px;
+	max-height: calc(100vh - 80px);
+ 
+	&__title {
+		text-align: right;
+		height: 21%;
+
+		@media #{$tablet-big} {
+			height: auto;
+		}
+
+		img {
+			width: 85%;
+			@media #{$tablet-big} {
+				width: 90%;
+			}
+		}
+	}
+
+	&__menu {
+		@media #{$mobile} {
+			display: none;
+		}
+		height: 72%;
+		margin-top: 10px;
+    line-height: 40px;
+    padding: 20px 15px 5px 15px;
+    text-align: right;
+    overflow-y: scroll; 
+
+    @media #{$tablet-big} {
+    	line-height: 30px;
+    	height: auto;
+    }
+
+    span {
+    	font-size: 24px;
+    	font-weight: 900;
+    	@media #{$tablet-big} {
+    		font-size: 20px;
+    	}
+    	@media #{$tablet} {
+    		font-size: 18px;
+    	}
+    }
+
+    img {
+    	margin-bottom: -3px;
+    }
+	}
+}
+
+.sidebar-left-mobile {
+	display: none;
+	@media #{$mobile} {
+		display: block;
+	}
+
+	background-color: $darkdarkred;
+	width: 0;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: opacity .35s, visibility .35s, width .35s;
+  overflow: hidden;
+  z-index: 200;
+
+  -webkit-box-shadow: 14px 0px 20px 10px rgba(0,0,0,0.4);
+	-moz-box-shadow: 14px 0px 20px 10px rgba(0,0,0,0.4);
+  box-shadow: 14px 0px 20px 10px rgba(0,0,0,0.4);
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    width: 75vw;
+
+    .fade-in-left {
+			animation: fadeInLeft .5s ease forwards;
+	    animation-delay: .2s;
+    }
+  }
+
+  &__menu {
+  	opacity: 0;
+		text-align: left;
+		margin-top: 100px;
+		line-height: 35px;
+
+		span {
+			font-size: 24px;
+			font-weight: 900;
+		}
+
+		img {
+			margin-bottom: -3px;
+		}
+	}
+}
+
+.selected {
+	span {
+		color: $lightsalmon;
+	}
+
+	img {
+		display: -webkit-inline-box;
+	}
+
+}
+
+.not-selected {
+	span {
+    color: $silver;
+
+    &:hover {
+    	color: $lightsalmon;
+    	cursor: pointer;
+    }
+	}
+
+  img {
+  	display: none;
+  }
+
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    padding-left: 0;
+  }
+  100% {
+    opacity: 1;
+    padding-left: 20vw;
+  }
+}
