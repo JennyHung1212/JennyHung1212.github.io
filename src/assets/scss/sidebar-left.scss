@@ -9,6 +9,9 @@
 		@media #{$tablet-big} {
 			height: auto;
 		}
+		@media #{$mobile}{
+			text-align: center;
+		}
 
 		img {
 			width: 85%;

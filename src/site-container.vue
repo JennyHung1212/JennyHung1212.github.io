@@ -1,11 +1,11 @@
 <template>
   <div class="site-container">
     <header class="header-container">
+      <img src="./assets/images/logo.png"/>
       <div class="header-container__menu">
         <span class="menu-title">LIFE in SG</span>
         <span class="menu-title">RESUME</span>
       </div>
-      <img src="./assets/images/logo.png"/>
     </header>
     <div class="header-container__left-toggle" id="toggle1">
       <span class="top"></span>
