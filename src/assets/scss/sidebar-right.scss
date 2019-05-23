@@ -1,0 +1,80 @@
+.sidebar-right-mobile {
+	display: none;
+	@media #{$mobile} {
+		display: block;
+	}
+
+	background-color: black;
+	width: 0;
+	height: 100vh;
+	position: fixed;
+	right: 0;
+	top: 0;
+	opacity: 0;
+	transition: opacity .35s, visibility .35s, width .35s;
+  overflow: hidden;
+  z-index: 150;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    width: 100vw;
+
+    .fade-in-right {
+			animation: fadeInRight .5s ease forwards;
+	    animation-delay: .2s;
+    }
+  }
+
+  &__menu {
+  	opacity: 0;
+		text-align: center;
+		margin-top: 100px;
+		line-height: 60px;
+		color: white;
+
+		span {
+			font-size: 24px;
+			font-weight: 500;
+		}
+
+	}
+}
+
+// .selected {
+// 	span {
+// 		color: $lightsalmon;
+// 	}
+
+// 	img {
+// 		display: -webkit-inline-box;
+// 	}
+
+// }
+
+// .not-selected {
+// 	span {
+//     color: $silver;
+
+//     &:hover {
+//     	color: $lightsalmon;
+//     	cursor: pointer;
+//     }
+// 	}
+
+//   img {
+//   	display: none;
+//   }
+
+// }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    padding-left: 200px;
+  }
+  100% {
+    opacity: 1;
+    padding-left: 0;
+  }
+}

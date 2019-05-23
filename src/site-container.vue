@@ -1,12 +1,27 @@
 <template>
   <div class="site-container">
     <header class="header-container">
+      <div class="header-container__menu">
+        <span class="menu-title">LIFE in SG</span>
+        <span class="menu-title">RESUME</span>
+      </div>
       <img src="./assets/images/logo.png"/>
     </header>
-    <div class="header-container__left-toggle" id="toggle">
+    <div class="header-container__left-toggle" id="toggle1">
       <span class="top"></span>
       <span class="middle"></span>
       <span class="bottom"></span>
+    </div>
+    <div class="header-container__right-toggle" id="toggle2">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+    <div class="sidebar-right-mobile">
+      <div class="sidebar-right-mobile__menu fade-in-right">
+        <div><span>LIFE in SG</span></div>
+        <div><span>RESUME</span></div>
+      </div>
     </div>
     <router-view/>
     <footer class="footer-container">
@@ -37,6 +52,7 @@ export default {
 @import "assets/scss/layout";
 @import "assets/scss/header";
 @import "assets/scss/footer";
+@import "assets/scss/sidebar-right";
 .site-container {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

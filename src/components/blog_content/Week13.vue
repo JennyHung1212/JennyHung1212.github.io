@@ -62,7 +62,7 @@
 				<div class="horizontal-single__annotation">The colorful houses of traditional peranakan style.</div>
 			</div>
 			<div class="content__content--text">
-				<p style="font-weight: bold">1. All the delicious food I had this week</p>
+				<p style="font-weight: bold">2. All the delicious food I had this week</p>
 				First, I have to mention the food me, Kwangho and Joyce prepared together. On the day we sang karaoke, we decided to have another dinner together and each one of us should prepare the dish of our own countries. I bought Hokkian noodle from a popular brand in Taiwan. Kwangho cooked spicy noodles and instant Tteokbokki. Joyce was the most diligent one, she made wontons herself! We had a really nice dinner and pleasant chat, I'm going to me these two a lot when I'm back in Taiwan. Next one is 黃亞細肉骨茶, one of the three most famouse bak kut teh stores in Singapore. The soup was the strongest among the three. I ordered 油條 with the soup. The 油條 suit surprisingly well with the soup! 
 				<br/><br/>
 				The third one is prata with onion, egg, mushrooms and cheese. I googled up "famouse breakfast in Singapore" weeks ago, and I found Poh Ho Restaurant, so I decided to give it a try. There were five different stalls in Poh Ho Restaurant, all selling different kinds of food. It's said that Poh Ho is famous among the locals, because it's cheap, delicious and is located in the residential area. The last one is Five Star Chicken Rice. Just as its name suggests, the chicken rice was quite good. It tasted especially with the spicy sauce.
