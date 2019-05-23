@@ -1,0 +1,52 @@
+$silver: #C0C0C0;
+$dimgrey: #696969;
+$slategrey: #708090;
+$darkdarkred: #A23232;
+$indianred: #CD5C5C;
+$salmon: #FA8072;
+$lightsalmon: #FFA07A;
+$darksalmon: #E9967A;
+$content-color: #2c3e50;
+
+@import "~flexboxgrid-sass/flexboxgrid.scss";
+@import "~lightbox2/dist/css/lightbox.min.css";
+
+$mobile: "only screen and (max-width : 750px)";
+$tablet: "only screen and (max-width : 1000px)";
+$tablet-big: "only screen and (max-width : 1399px)";
+$desktop: "only screen and (min-width : 1400px)";
+
+.inline-block {
+	display: inline-block;
+}
+
+.invisible-scrollbar {
+	overflow-y: scroll;
+	height: -webkit-fill-available;
+
+	@media #{$mobile} {
+		overflow-y: hidden;
+    height: unset;
+  }
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+.desktop-img {
+	display: block;
+
+	@media #{$mobile} {
+		display: none;
+	}
+}
+
+.mobile-img {
+	display: none;
+
+	@media #{$mobile} {
+		display: block;
+	}
+}
+
