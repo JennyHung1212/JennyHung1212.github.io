@@ -8,7 +8,7 @@
   text-align: right;
   z-index: 100;
 
-  @media #{$tablet-big} {
+  @media #{$mobile} {
     text-align: center;
   }
 
@@ -17,8 +17,37 @@
     margin-right: 50px;
     margin-top: 15px;
 
-    @media #{$tablet} {
+    @media #{$mobile} {
       margin-right: 0;
+    }
+  }
+
+  &__menu {
+    position: fixed;
+    right: 130px;
+    top: 28px;
+    font-weight: 500;
+    color: black;
+
+    @media #{$tablet-big} {
+      right: 100px;
+    }
+
+    @media #{$mobile} {
+      display: none;
+    }
+
+    .menu-title {
+      margin: 0 15px;
+      padding: 3px 10px;
+      cursor: pointer;
+      border: black 2px solid;
+      border-radius: 3px;
+    }
+
+    .menu-title:hover {
+      border-radius: 50px;
+      transition: all 0.4s ease 0s;
     }
   }
 
@@ -71,6 +100,59 @@
       .bottom {
         transform: translateY(-11px) translateX(0) rotate(-45deg);
         background: $silver;
+      }
+    }
+  }
+
+  &__right-toggle {
+    display: none;
+    position: fixed;
+    right: 15px;
+    top: 27px;
+    height: 27px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 200;
+    transition: opacity .25s ease;
+
+    @media #{$mobile} {
+      display: block;
+    }
+
+    span {
+      background: black;
+      border: none;
+      height: 2px;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition:  all .35s ease;
+      cursor: pointer;
+    
+      &:nth-of-type(2) {
+        top: 11px;
+      }
+      
+      &:nth-of-type(3) {
+        top: 22px;
+      }
+    }
+
+    &.active {
+      .top {
+        transform: translateY(11px) translateX(0) rotate(45deg);
+        background: white;
+      }
+
+      .middle {
+        opacity: 0;
+        background: white;
+      }
+
+      .bottom {
+        transform: translateY(-11px) translateX(0) rotate(-45deg);
+        background: white;
       }
     }
   }
