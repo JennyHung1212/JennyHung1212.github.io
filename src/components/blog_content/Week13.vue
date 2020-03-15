@@ -2,7 +2,9 @@
   <div id="sg-week-13" class="content" style="display: none">
     <div class="content__title">
       Explore Every Corner in Singapore —— Part 1
-      <img src="../../assets/images/vertical_bars_sg.png" />
+      <img
+        src="../../assets/images/vertical_bars_sg.png"
+      />
     </div>
     <div class="content__date">2019/04/15 ~ 2019/04/21</div>
     <div class="content__content">

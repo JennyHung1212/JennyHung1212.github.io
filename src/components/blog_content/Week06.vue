@@ -85,6 +85,7 @@ export default {
   font-weight: bold;
   line-height: 40px;
   margin-bottom: 40px;
+
   @media #{$mobile} {
     line-height: 35px;
   }
@@ -92,6 +93,7 @@ export default {
   &__text {
     padding: 40px 70px 0px 70px;
     font-style: italic;
+
     @media #{$mobile} {
       padding: 40px 10px 0px 10px;
     }

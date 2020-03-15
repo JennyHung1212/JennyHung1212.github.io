@@ -1,98 +1,53 @@
 <template>
-  <div class="row">
-    <div class="col-md-3 col-sm-3 col-xs-12 sidebar-left">
+  <a-row>
+    <a-col :xs="24" :sm="6" :md="6" :lg="5" class="sidebar-left">
       <div class="sidebar-left__title">
-        <img src="../assets/images/life_in_sg.png" alt="Life in Singapore" />
+        <div>
+          <img src="../assets/images/life_in_sg.png" alt="Life in Singapore" />
+        </div>
       </div>
       <div class="sidebar-left__menu invisible-scrollbar">
         <div
-          class="selected"
+          :class="[$router.currentRoute.path.split('/')[2] === (index + 1).toString() ? 'selected' : 'not-selected']"
           v-for="(menu, index) in menuList"
           :key="menu"
-          @click="$router.push({name: `week${index+1}`})"
+          @click="$router.push({ name: `week${index + 1}` })"
         >
           <span>Week {{menu}}</span>
           <img src="../assets/images/right_arrow.png" />
         </div>
       </div>
-    </div>
-    <div class="sidebar-left-mobile">
+    </a-col>
+    <a-col :span="24" class="sidebar-left-mobile" :class="{open: open || isOpen}">
       <div class="sidebar-left-mobile__menu fade-in-left">
-        <div class="sg-week-01 selected">
-          <span>Week One</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-02 not-selected">
-          <span>Week Two</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-03 not-selected">
-          <span>Week Three</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-04 not-selected">
-          <span>Week Four</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-05 not-selected">
-          <span>Week Five</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-06 not-selected">
-          <span>Week Six</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-07 not-selected">
-          <span>Week Seven</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-08 not-selected">
-          <span>Week Eight</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-09 not-selected">
-          <span>Week Nine</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-10 not-selected">
-          <span>Week Ten</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-11 not-selected">
-          <span>Week Eleven</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-12 not-selected">
-          <span>Week Twelve</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-13 not-selected">
-          <span>Week Thirteen</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-14 not-selected">
-          <span>Week Fourteen</span>
-          <img src="../assets/images/right_arrow.png" />
-        </div>
-        <div class="sg-week-15 not-selected">
-          <span>Week Fifteen</span>
+        <div
+          :class="[$router.currentRoute.path.split('/')[2] === (index + 1).toString() ? 'selected' : 'not-selected']"
+          v-for="(menu, index) in menuList"
+          :key="menu"
+          @click="$router.push({ name: `week${index + 1}` }), isOpen=false, $emit('close-menu')"
+        >
+          <span>Week {{menu}}</span>
           <img src="../assets/images/right_arrow.png" />
         </div>
       </div>
-    </div>
-    <div class="col-md-9 col-sm-9 col-xs-12 invisible-scrollbar">
+    </a-col>
+    <a-col :xs="24" :sm="18" :md="18" :lg="19" class="invisible-scrollbar main-content">
       <router-view></router-view>
-    </div>
-  </div>
+    </a-col>
+  </a-row>
 </template>
 
 <script>
-import { left_menu } from "../assets/js/life_in_sg.js";
-left_menu();
 import Swiper from "swiper";
 
 export default {
   name: "LifeInSG",
+  props: {
+    open: {
+      type: Boolean,
+      default: false
+    }
+  },
   data() {
     return {
       menuList: [
@@ -111,8 +66,21 @@ export default {
         "Thirteen",
         "Fourteen",
         "Fifteen"
-      ]
+      ],
+      isSelected: false,
+      isOpen: false
     };
+  },
+  watch: {
+    open(newVal) {
+      this.isOpen = newVal;
+    }
+  },
+  methods: {
+    handleRoute(index) {
+      this.$router.push({ name: `week${index + 1}` });
+      console.log(this.$router.currentRoute);
+    }
   }
 };
 

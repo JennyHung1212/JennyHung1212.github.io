@@ -32,6 +32,10 @@
     margin-top: 20px;
     text-align: justify;
 
+    @media #{$tablet} {
+      font-size: 17px;
+    }
+
     @media #{$mobile} {
       text-align: left;
     }
@@ -51,7 +55,7 @@
   @media #{$mobile} {
     padding: 0;
     width: 100vw;
-    margin-left: -33px;
+    margin-left: -25px;
   }
 
   &__frame {

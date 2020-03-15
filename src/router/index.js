@@ -34,6 +34,7 @@ const router = new Router({
       path: "/life-in-sg",
       name: "LifeInSG",
       component: LifeInSG,
+      redirect: { name: "week1" },
       children: [
         { path: "1", component: Week01, name: "week1" },
         { path: "2", component: Week02, name: "week2" },

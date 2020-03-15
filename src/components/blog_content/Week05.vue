@@ -8,7 +8,9 @@
     <div class="content__content">
       <div class="content__content--text">
         Before I start writing about the things happened this week, I have to tell you this first.
-        <span style="font-weight: bold">The movie tickets in Singapore are SOOO CHEAP!!!</span> I went to Golden Village at Paya Lebar to see the movie "Serenity" on Thursday, and it only cost me SGD 8.5, which is 2 dollars cheaper than Taiwan (in SGD)!! I wasn't there when the student account is available, but still, the ticket is cheap as hell! I might be a little bit exaggerated, but as a filmaholic like me, this is definitely a wonderful news. Next time I will know what to do when I feel boring. 🎬🎬🎬
+        <span
+          style="font-weight: bold"
+        >The movie tickets in Singapore are SOOO CHEAP!!!</span> I went to Golden Village at Paya Lebar to see the movie "Serenity" on Thursday, and it only cost me SGD 8.5, which is 2 dollars cheaper than Taiwan (in SGD)!! I wasn't there when the student account is available, but still, the ticket is cheap as hell! I might be a little bit exaggerated, but as a filmaholic like me, this is definitely a wonderful news. Next time I will know what to do when I feel boring. 🎬🎬🎬
         <br />
         <br />Now let's talk about this week starting with the Rice Balls Cooking Event! This Tuesday was Lantern Festival, which is a Chinese festival celebrated on the fifteenth day of the first month in the lunisolar. So I decided to invite some friends to cook rice balls in the hostel kitchen together. We bought three flavors: peanut, sesame and red bean. We cooked the rice balls in the boiled water and add brown sugar syrup with ginger flavor. The rice balls were really good! Although it was a little bit weird to celebrate Lantern Festival in such a hot weather, the tasty sweet rice balls did successful add on some holiday spirit.
         <br />

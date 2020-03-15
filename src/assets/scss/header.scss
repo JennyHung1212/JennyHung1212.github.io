@@ -1,6 +1,6 @@
 .header-container {
   background-color: white;
-  height: 70px;
+  height: 80px;
   position: fixed;
   top: 0;
   left: 0;
@@ -60,7 +60,7 @@
     width: 35px;
     cursor: pointer;
     z-index: 250;
-    transition: opacity .25s ease;
+    transition: opacity 0.25s ease;
 
     @media #{$mobile} {
       display: block;
@@ -74,13 +74,13 @@
       position: absolute;
       top: 0;
       left: 0;
-      transition:  all .35s ease;
+      transition: all 0.35s ease;
       cursor: pointer;
-    
+
       &:nth-of-type(2) {
         top: 11px;
       }
-      
+
       &:nth-of-type(3) {
         top: 22px;
       }
@@ -113,7 +113,7 @@
     width: 35px;
     cursor: pointer;
     z-index: 200;
-    transition: opacity .25s ease;
+    transition: opacity 0.25s ease;
 
     @media #{$mobile} {
       display: block;
@@ -127,13 +127,13 @@
       position: absolute;
       top: 0;
       left: 0;
-      transition:  all .35s ease;
+      transition: all 0.35s ease;
       cursor: pointer;
-    
+
       &:nth-of-type(2) {
         top: 11px;
       }
-      
+
       &:nth-of-type(3) {
         top: 22px;
       }
