@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "ajv": "^6.9.2",
+    "ant-design-vue": "^1.4.12",
     "flexboxgrid-sass": "^8.0.5",
     "guetzli": "^2.0.0",
     "gulp": "^4.0.0",

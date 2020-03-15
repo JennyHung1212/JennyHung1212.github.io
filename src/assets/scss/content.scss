@@ -1,99 +1,103 @@
 .content {
-	text-align: left;
-	padding: 10px 240px 40px 20px;
-	height: 100%;
+  text-align: left;
+  padding: 10px 240px 40px 20px;
+  height: 100%;
 
-	@media #{$tablet-big} {
-		padding: 10px 40px 40px 10px;
-	}
+  @media #{$tablet-big} {
+    padding: 10px 40px 40px 10px;
+  }
 
-	@media #{$mobile} {
-		padding: 10px 25px;
-	}
+  @media #{$mobile} {
+    padding: 10px 25px;
+  }
 
-	&__title {
-		font-size: 28px;
-		font-weight: 600;
+  &__title {
+    font-size: 28px;
+    font-weight: 600;
 
-		img {
-			height: 25px;
-    		margin-top: 5px;
-    		float: right;
-		}
-	}
+    img {
+      height: 25px;
+      margin-top: 5px;
+      float: right;
+    }
+  }
 
-	&__date {
-		font-weight: bold;
-		color: $slategrey;
-	}
+  &__date {
+    font-weight: bold;
+    color: $slategrey;
+  }
 
-	&__content {
-		font-size: 18px;
-		margin-top: 20px;
-		text-align: justify;
+  &__content {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
 
-		@media #{$mobile} {
-			text-align: left;
-		}
+    @media #{$tablet} {
+      font-size: 17px;
+    }
 
-		&--image {
-			margin-top: 40px;
-			margin-bottom: 30px;
-			@media #{$mobile} {
-				margin-top: 30px;
-			}
-		}
-	}
+    @media #{$mobile} {
+      text-align: left;
+    }
+
+    &--image {
+      margin-top: 40px;
+      margin-bottom: 30px;
+      @media #{$mobile} {
+        margin-top: 30px;
+      }
+    }
+  }
 }
 
 .horizontal-single {
-	padding: 0 30px;
-	@media #{$mobile} {
-		padding: 0;
-		width: 100vw;
-    margin-left: -33px;
-	}
+  padding: 0 30px;
+  @media #{$mobile} {
+    padding: 0;
+    width: 100vw;
+    margin-left: -25px;
+  }
 
-	&__frame {
-		width: 600px;
+  &__frame {
+    width: 600px;
     height: 400px;
     overflow-x: hidden;
     overflow-y: hidden;
     margin: auto;
 
     @media #{$tablet-big} {
-    	width: 70%;
-    	height: auto;
+      width: 70%;
+      height: auto;
     }
     @media #{$tablet} {
-    	width: 90%;
-    	height: auto;
+      width: 90%;
+      height: auto;
     }
     @media #{$mobile} {
-    	width: 100%;
-    	height: auto;
+      width: 100%;
+      height: auto;
     }
-	}
+  }
 
-	img {
-    	width: 100%;
-    }
+  img {
+    width: 100%;
+  }
 
-	&__annotation {
-		font-weight: bold;
-		color: $slategrey;
+  &__annotation {
+    font-weight: bold;
+    color: $slategrey;
     font-size: 16px;
     text-align: center;
     padding: 10px 0;
 
     @media #{$mobile} {
-    	padding: 10px;
+      padding: 10px;
     }
-	}
+  }
 }
 
 .horizontal-double {
-	&__frame1 {
+  &__frame1 {
     width: 450px;
     height: 300px;
     overflow-y: hidden;
@@ -101,126 +105,123 @@
     vertical-align: middle;
 
     @media #{$tablet-big} {
-    	width: 50%;
-    	height: auto;
+      width: 50%;
+      height: auto;
     }
-	}
+  }
 
-	&__frame2 {
+  &__frame2 {
     width: 450px;
     height: 300px;
     overflow-y: hidden;
     margin-right: -15%;
     vertical-align: middle;
     @media #{$tablet-big} {
-    	width: 50%;
-    	height: auto;
+      width: 50%;
+      height: auto;
     }
-	}
+  }
 
-	img {
-		width: 100%;
-	}
+  img {
+    width: 100%;
+  }
 
-	&__annotation {
-		font-weight: bold;
-		color: $slategrey;
+  &__annotation {
+    font-weight: bold;
+    color: $slategrey;
     font-size: 16px;
     text-align: center;
     padding: 10px 0;
-	}
+  }
 }
 
 .mixed-triple {
-	text-align: center;
-	&__frame1 {
-		overflow: hidden;
-		width: 360px;
-		height: 530px;
-		margin-right: 10px;
+  text-align: center;
+  &__frame1 {
+    overflow: hidden;
+    width: 360px;
+    height: 530px;
+    margin-right: 10px;
     @media #{$tablet-big} {
-    	width: 290px;
-    	height: 410px;
+      width: 290px;
+      height: 410px;
     }
     @media #{$tablet} {
-    	width: 220px;
-    	height: 330px;
+      width: 220px;
+      height: 330px;
     }
 
-		img {
-			height: 100%;
-		}
-	}
+    img {
+      height: 100%;
+    }
+  }
 
-	&__frame2 {
-		overflow-y: hidden;
-		width: 400px;
-		height: 260px;
-		margin-bottom: 10px;
+  &__frame2 {
+    overflow-y: hidden;
+    width: 400px;
+    height: 260px;
+    margin-bottom: 10px;
     @media #{$tablet-big} {
-    	width: 300px;
-    	height: 200px;
-    }		
+      width: 300px;
+      height: 200px;
+    }
     @media #{$tablet} {
-    	width: 240px;
-    	height: 160px;
+      width: 240px;
+      height: 160px;
     }
 
-		img {
-			width: 100%;
-		}
-	}
+    img {
+      width: 100%;
+    }
+  }
 
-	&__frame3 {
-		overflow-y: hidden;
-		width: 400px;
-		height: 260px;
+  &__frame3 {
+    overflow-y: hidden;
+    width: 400px;
+    height: 260px;
     @media #{$tablet-big} {
-    	width: 300px;
-    	height: 200px;
-    }	
+      width: 300px;
+      height: 200px;
+    }
     @media #{$tablet} {
-    	width: 240px;
-    	height: 160px;
+      width: 240px;
+      height: 160px;
     }
 
-		img {
-			width: 100%;
-		}
-	}
+    img {
+      width: 100%;
+    }
+  }
 
-
-
-	&__annotation {
-		font-weight: bold;
-		color: $slategrey;
+  &__annotation {
+    font-weight: bold;
+    color: $slategrey;
     font-size: 16px;
     text-align: center;
     padding: 10px 0;
-	}
+  }
 }
 
 .schedule {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 15px;
-	background-color: rgba(105, 105, 105, .1);
-	padding: 40px;
-	margin-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  background-color: rgba(105, 105, 105, 0.1);
+  padding: 40px;
+  margin-bottom: 20px;
 
-	@media #{$mobile} {
-		width: 98%;
+  @media #{$mobile} {
+    width: 98%;
     margin-left: -40px;
-	}
+  }
 
-	span {
-		font-weight: bold;
-		color: $indianred;
-	}
+  span {
+    font-weight: bold;
+    color: $indianred;
+  }
 }
 
 .subtitle {
-	background-color: rgba(105, 105, 105, .1);
-	padding: 10px;
-	font-weight: bold;
+  background-color: rgba(105, 105, 105, 0.1);
+  padding: 10px;
+  font-weight: bold;
 }
-

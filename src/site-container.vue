@@ -1,32 +1,46 @@
 <template>
   <div class="site-container">
     <header class="header-container">
-      <img src="./assets/images/logo.png"/>
+      <img src="./assets/images/logo.png" />
       <div class="header-container__menu">
         <span class="menu-title">LIFE in SG</span>
         <span class="menu-title">RESUME</span>
       </div>
     </header>
-    <div class="header-container__left-toggle" id="toggle1">
+    <div
+      class="header-container__left-toggle"
+      id="toggle1"
+      @click="isActiveLeft=!isActiveLeft, isOpenLeft=!isOpenLeft"
+      :class="{active: isActiveLeft}"
+    >
       <span class="top"></span>
       <span class="middle"></span>
       <span class="bottom"></span>
     </div>
-    <div class="header-container__right-toggle" id="toggle2">
+    <div
+      class="header-container__right-toggle"
+      id="toggle2"
+      @click="isActiveRight=!isActiveRight, isOpenRight=!isOpenRight"
+      :class="{active: isActiveRight}"
+    >
       <span class="top"></span>
       <span class="middle"></span>
       <span class="bottom"></span>
     </div>
-    <div class="sidebar-right-mobile">
+    <div class="sidebar-right-mobile" :class="{open: isOpenRight}">
       <div class="sidebar-right-mobile__menu fade-in-right">
-        <div><span>LIFE in SG</span></div>
-        <div><span>RESUME</span></div>
+        <div>
+          <span>LIFE in SG</span>
+        </div>
+        <div>
+          <span>RESUME</span>
+        </div>
       </div>
     </div>
-    <router-view/>
+    <router-view :open="isOpenLeft" @close-menu="isActiveLeft=false, isOpenLeft=false" />
     <footer class="footer-container">
       <div class="footer-container__top">
-        <img src="./assets/images/up.png">
+        <img src="./assets/images/up.png" />
       </div>
       <div class="footer-container__progress">
         <div class="footer-container__progress--bar"></div>
@@ -36,15 +50,20 @@
 </template>
 
 <script>
-import {left_toggle} from "./assets/js/header.js";
-left_toggle();
-
-import {progress_bar, scroll_top} from "./assets/js/footer.js";
+import { progress_bar, scroll_top } from "./assets/js/footer.js";
 progress_bar();
 scroll_top();
 
 export default {
-  name: "SiteContainer"
+  name: "SiteContainer",
+  data() {
+    return {
+      isActiveLeft: false,
+      isActiveRight: false,
+      isOpenLeft: false,
+      isOpenRight: false
+    };
+  }
 };
 </script>
 
@@ -58,12 +77,13 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $content-color;
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 .row {
-  max-height: calc(100vh-80px);
+  max-height: calc(100vh - 80px);
   overflow-y: hidden;
+
   @media #{$mobile} {
     max-height: unset;
     overflow-y: scroll;
