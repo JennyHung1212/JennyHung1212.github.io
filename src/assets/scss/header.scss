@@ -37,12 +37,21 @@
       display: none;
     }
 
+    a {
+      color: black
+    }
+
+    a:hover {
+      color: black
+    }
+
     .menu-title {
       margin: 0 15px;
       padding: 3px 10px;
       cursor: pointer;
       border: black 2px solid;
       border-radius: 3px;
+
     }
 
     .menu-title:hover {

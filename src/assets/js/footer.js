@@ -7,10 +7,11 @@ export function progress_bar() {
       let contentScrollTop = $(this).scrollTop();
       let height =
         $(this)
-          .children(".scrolled")
+          .children(".content")
           .height() -
-        ($(".row").height() - 50);
+        ($(".ant-row").height() - 50);
       let scrolled = (contentScrollTop / height) * 100;
+      console.log(contentScrollTop, height);
       $(".footer-container__progress--bar").css("width", scrolled + "%");
     });
   });
@@ -29,7 +30,7 @@ export function scroll_top() {
     $(".footer-container__top").click(function() {
       $(".invisible-scrollbar").animate(
         {
-          scrollTop: 0
+          scrollTop: 0,
         },
         600
       );

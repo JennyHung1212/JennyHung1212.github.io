@@ -1,7 +1,7 @@
 .content {
   text-align: left;
-  padding: 10px 240px 40px 20px;
-  height: 100%;
+  padding: 10px 200px 40px 40px;
+  // height: 100%;
 
   @media #{$tablet-big} {
     padding: 10px 40px 40px 10px;
@@ -43,6 +43,7 @@
     &--image {
       margin-top: 40px;
       margin-bottom: 30px;
+
       @media #{$mobile} {
         margin-top: 30px;
       }
@@ -52,6 +53,7 @@
 
 .horizontal-single {
   padding: 0 30px;
+
   @media #{$mobile} {
     padding: 0;
     width: 100vw;
@@ -69,10 +71,12 @@
       width: 70%;
       height: auto;
     }
+
     @media #{$tablet} {
       width: 90%;
       height: auto;
     }
+
     @media #{$mobile} {
       width: 100%;
       height: auto;
@@ -116,6 +120,7 @@
     overflow-y: hidden;
     margin-right: -15%;
     vertical-align: middle;
+
     @media #{$tablet-big} {
       width: 50%;
       height: auto;
@@ -137,15 +142,18 @@
 
 .mixed-triple {
   text-align: center;
+
   &__frame1 {
     overflow: hidden;
     width: 360px;
     height: 530px;
     margin-right: 10px;
+
     @media #{$tablet-big} {
       width: 290px;
       height: 410px;
     }
+
     @media #{$tablet} {
       width: 220px;
       height: 330px;
@@ -161,10 +169,12 @@
     width: 400px;
     height: 260px;
     margin-bottom: 10px;
+
     @media #{$tablet-big} {
       width: 300px;
       height: 200px;
     }
+
     @media #{$tablet} {
       width: 240px;
       height: 160px;
@@ -179,10 +189,12 @@
     overflow-y: hidden;
     width: 400px;
     height: 260px;
+
     @media #{$tablet-big} {
       width: 300px;
       height: 200px;
     }
+
     @media #{$tablet} {
       width: 240px;
       height: 160px;

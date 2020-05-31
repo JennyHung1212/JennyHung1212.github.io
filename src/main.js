@@ -14,6 +14,6 @@ Vue.component(Col.name, Col);
 Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(SiteContainer),
-  router
+  render: (h) => h(SiteContainer),
+  router,
 }).$mount(".site-container");
