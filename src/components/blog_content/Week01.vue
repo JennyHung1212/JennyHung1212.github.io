@@ -1,5 +1,5 @@
 <template>
-  <div id="sg-week-01" class="content scrolled">
+  <div id="sg-week-01" class="content">
     <div class="content__title">
       First Week First
       <img src="../../assets/images/vertical_bars_sg.png" />

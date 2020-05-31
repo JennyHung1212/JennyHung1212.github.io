@@ -22,7 +22,6 @@ import Week15 from "@/components/blog_content/Week15.vue";
 Vue.use(Router);
 
 const router = new Router({
-  mode: "history",
   base: "/",
   routes: [
     // {
@@ -50,10 +49,10 @@ const router = new Router({
         { path: "12", component: Week12, name: "week12" },
         { path: "13", component: Week13, name: "week13" },
         { path: "14", component: Week14, name: "week14" },
-        { path: "15", component: Week15, name: "week15" }
-      ]
-    }
-  ]
+        { path: "15", component: Week15, name: "week15" },
+      ],
+    },
+  ],
 });
 
 export default router;

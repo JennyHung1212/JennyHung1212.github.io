@@ -4,7 +4,10 @@
       <img src="./assets/images/logo.png" />
       <div class="header-container__menu">
         <span class="menu-title">LIFE in SG</span>
-        <span class="menu-title">RESUME</span>
+
+        <a href="http://jennyhung-cv.net/">
+          <span class="menu-title">RESUME</span>
+        </a>
       </div>
     </header>
     <div
@@ -33,7 +36,9 @@
           <span>LIFE in SG</span>
         </div>
         <div>
-          <span>RESUME</span>
+          <a href="http://jennyhung-cv.net/">
+            <span>RESUME</span>
+          </a>
         </div>
       </div>
     </div>
