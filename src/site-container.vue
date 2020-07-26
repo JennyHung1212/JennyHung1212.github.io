@@ -1,7 +1,7 @@
 <template>
   <div class="site-container">
     <header class="header-container">
-      <img src="./assets/images/logo.png" />
+      <img v-lazy="'./assets/images/logo.png'" />
       <div class="header-container__menu">
         <span class="menu-title">LIFE in SG</span>
 
@@ -45,7 +45,7 @@
     <router-view :open="isOpenLeft" @close-menu="isActiveLeft=false, isOpenLeft=false" />
     <footer class="footer-container">
       <div class="footer-container__top">
-        <img src="./assets/images/up.png" />
+        <img v-lazy="'./assets/images/up.png'" />
       </div>
       <div class="footer-container__progress">
         <div class="footer-container__progress--bar"></div>
@@ -66,9 +66,9 @@ export default {
       isActiveLeft: false,
       isActiveRight: false,
       isOpenLeft: false,
-      isOpenRight: false
+      isOpenRight: false,
     };
-  }
+  },
 };
 </script>
 

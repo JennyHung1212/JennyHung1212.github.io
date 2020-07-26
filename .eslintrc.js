@@ -4,8 +4,9 @@ module.exports = {
   },
   root: true,
   parserOptions: {
+    parser: "babel-eslint",
     sourceType: "module",
+    allowImportExportEverywhere: "true",
   },
   plugins: ["html"],
-  parser: "babel-eslint",
 };

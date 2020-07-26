@@ -3,7 +3,7 @@
     <a-col :xs="24" :sm="6" :md="6" :lg="5" class="sidebar-left">
       <div class="sidebar-left__title">
         <div>
-          <img src="../assets/images/life_in_sg.png" alt="Life in Singapore" />
+          <img v-lazy="'../assets/images/life_in_sg.png'" alt="Life in Singapore" />
         </div>
       </div>
       <div class="sidebar-left__menu invisible-scrollbar">
@@ -14,7 +14,7 @@
           @click="$router.push({ name: `week${index + 1}` })"
         >
           <span>Week {{menu}}</span>
-          <img src="../assets/images/right_arrow.png" />
+          <img v-lazy="'../assets/images/right_arrow.png'" />
         </div>
       </div>
     </a-col>
@@ -27,7 +27,7 @@
           @click="$router.push({ name: `week${index + 1}` }), isOpen=false, $emit('close-menu')"
         >
           <span>Week {{menu}}</span>
-          <img src="../assets/images/right_arrow.png" />
+          <img v-lazy="'../assets/images/right_arrow.png'" />
         </div>
       </div>
     </a-col>
@@ -45,8 +45,8 @@ export default {
   props: {
     open: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   data() {
     return {
@@ -65,23 +65,23 @@ export default {
         "Twelve",
         "Thirteen",
         "Fourteen",
-        "Fifteen"
+        "Fifteen",
       ],
       isSelected: false,
-      isOpen: false
+      isOpen: false,
     };
   },
   watch: {
     open(newVal) {
       this.isOpen = newVal;
-    }
+    },
   },
   methods: {
     handleRoute(index) {
       this.$router.push({ name: `week${index + 1}` });
       console.log(this.$router.currentRoute);
-    }
-  }
+    },
+  },
 };
 
 import { img_lightbox } from "../assets/js/lightbox.js";
@@ -90,7 +90,7 @@ img_lightbox();
 import lightbox from "lightbox2";
 lightbox.option({
   wrapAround: true,
-  albumLabel: "%1 / %2"
+  albumLabel: "%1 / %2",
 });
 
 import { swiper } from "../assets/js/swiper.js";
