@@ -2,6 +2,8 @@ import Vue from "vue";
 
 import SiteContainer from "./site-container.vue";
 import router from "./router";
+import VueLazyload from "vue-lazyload";
+Vue.use(VueLazyload);
 
 // ant design
 import { Carousel, Layout, Row, Col } from "ant-design-vue";

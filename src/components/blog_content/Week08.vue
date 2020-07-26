@@ -2,7 +2,7 @@
   <div id="sg-week-08" class="content">
     <div class="content__title">
       Batam Island
-      <img src="../../assets/images/vertical_bars_sg.png" />
+      <img v-lazy="'../../assets/images/vertical_bars_sg.png'" />
     </div>
     <div class="content__date">2019/03/11 ~ 2019/03/17</div>
     <div class="content__content">
@@ -17,12 +17,12 @@
         <div class="desktop-img horizontal-double">
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week08-1">
-              <img src="../../assets/images/week08/pempek.jpg" />
+              <img v-lazy="'../../assets/images/week08/pempek.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week08-1">
-              <img src="../../assets/images/week08/ayam.jpg" />
+              <img v-lazy="'../../assets/images/week08/ayam.jpg'" />
             </a>
           </div>
           <div
@@ -32,10 +32,10 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week08/pempek.jpg" />
+              <img v-lazy="'../../assets/images/week08/pempek.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week08/ayam.jpg" />
+              <img v-lazy="'../../assets/images/week08/ayam.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -51,7 +51,7 @@
 
 <script>
 export default {
-  name: "Week08"
+  name: "Week08",
 };
 </script>
 

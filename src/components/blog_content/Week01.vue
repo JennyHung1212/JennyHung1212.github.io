@@ -2,7 +2,7 @@
   <div id="sg-week-01" class="content">
     <div class="content__title">
       First Week First
-      <img src="../../assets/images/vertical_bars_sg.png" />
+      <img v-lazy="'../../assets/images/vertical_bars_sg.png'" />
     </div>
     <div class="content__date">2019/01/22 ~ 2019/01/27</div>
     <div class="content__content">
@@ -17,12 +17,12 @@
         <div class="desktop-img horizontal-double">
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week01-1">
-              <img src="../../assets/images/week01/chinatown.jpg" />
+              <img v-lazy="'../../assets/images/week01/chinatown.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week01-1">
-              <img src="../../assets/images/week01/teamates.jpg" />
+              <img v-lazy="'../../assets/images/week01/teamates.jpg'" />
             </a>
           </div>
           <div
@@ -32,10 +32,10 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week01/chinatown.jpg" />
+              <img v-lazy="'../../assets/images/week01/chinatown.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week01/teamates.jpg" />
+              <img v-lazy="'../../assets/images/week01/teamates.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -48,7 +48,7 @@
       <div class="content__content--image horizontal-single">
         <div class="horizontal-single__frame img_lightbox">
           <a href data-lightbox="week01-2">
-            <img src="../../assets/images/week01/museum.jpg" />
+            <img v-lazy="'../../assets/images/week01/museum.jpg'" />
           </a>
         </div>
         <div class="horizontal-single__annotation">National Museum of Singapore, built in 1849.</div>
@@ -61,19 +61,19 @@
           <div class="inline-block">
             <div class="mixed-triple__frame1 img_lightbox">
               <a href data-lightbox="week01-3">
-                <img src="../../assets/images/week01/CIP-1.jpg" />
+                <img v-lazy="'../../assets/images/week01/CIP-1.jpg'" />
               </a>
             </div>
           </div>
           <div class="inline-block">
             <div class="mixed-triple__frame2 img_lightbox">
               <a href data-lightbox="week01-3">
-                <img src="../../assets/images/week01/CIP-2.jpg" />
+                <img v-lazy="'../../assets/images/week01/CIP-2.jpg'" />
               </a>
             </div>
             <div class="mixed-triple__frame3 img_lightbox">
               <a href data-lightbox="week01-3">
-                <img src="../../assets/images/week01/CIP-3.jpg" />
+                <img v-lazy="'../../assets/images/week01/CIP-3.jpg'" />
               </a>
             </div>
           </div>
@@ -84,10 +84,10 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week01/CIP-2.jpg" />
+              <img v-lazy="'../../assets/images/week01/CIP-2.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week01/CIP-3.jpg" />
+              <img v-lazy="'../../assets/images/week01/CIP-3.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -100,7 +100,7 @@
 
 <script>
 export default {
-  name: "Week01"
+  name: "Week01",
 };
 </script>
 

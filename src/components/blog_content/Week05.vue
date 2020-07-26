@@ -2,7 +2,7 @@
   <div id="sg-week-05" class="content">
     <div class="content__title">
       Night Cycling
-      <img src="../../assets/images/vertical_bars_sg.png" />
+      <img v-lazy="'../../assets/images/vertical_bars_sg.png'" />
     </div>
     <div class="content__date">2019/02/18 ~ 2019/02/24</div>
     <div class="content__content">
@@ -19,7 +19,7 @@
       <div class="content__content--image horizontal-single">
         <div class="horizontal-single__frame img_lightbox">
           <a href data-lightbox="week05-1">
-            <img src="../../assets/images/week05/taufoo.jpg" />
+            <img v-lazy="'../../assets/images/week05/taufoo.jpg'" />
           </a>
         </div>
         <div
@@ -34,19 +34,19 @@
           <div class="inline-block">
             <div class="mixed-triple__frame1 img_lightbox">
               <a href data-lightbox="week05-2">
-                <img src="../../assets/images/week05/drink.jpg" />
+                <img v-lazy="'../../assets/images/week05/drink.jpg'" />
               </a>
             </div>
           </div>
           <div class="inline-block">
             <div class="mixed-triple__frame2 img_lightbox">
               <a href data-lightbox="week05-2">
-                <img src="../../assets/images/week05/mee.jpg" />
+                <img v-lazy="'../../assets/images/week05/mee.jpg'" />
               </a>
             </div>
             <div class="mixed-triple__frame3 img_lightbox">
               <a href data-lightbox="week05-2">
-                <img src="../../assets/images/week05/fun.jpg" />
+                <img v-lazy="'../../assets/images/week05/fun.jpg'" />
               </a>
             </div>
           </div>
@@ -57,10 +57,10 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week05/mee.jpg" />
+              <img v-lazy="'../../assets/images/week05/mee.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week05/fun.jpg" />
+              <img v-lazy="'../../assets/images/week05/fun.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -73,7 +73,7 @@
       <div class="content__content--image horizontal-single">
         <div class="horizontal-single__frame img_lightbox">
           <a href data-lightbox="week05-3">
-            <img src="../../assets/images/week05/cycling.jpg" />
+            <img v-lazy="'../../assets/images/week05/cycling.jpg'" />
           </a>
         </div>
         <div
@@ -86,7 +86,7 @@
 
 <script>
 export default {
-  name: "Week05"
+  name: "Week05",
 };
 </script>
 

@@ -2,7 +2,7 @@
   <div id="sg-week-06" class="content">
     <div class="content__title">
       ArtScience Museum and the Third CIP
-      <img src="../../assets/images/vertical_bars_sg.png" />
+      <img v-lazy="'../../assets/images/vertical_bars_sg.png'" />
     </div>
     <div class="content__date">2019/02/25 ~ 2019/03/03</div>
     <div class="content__content">
@@ -12,7 +12,7 @@
       <div class="content__content--image horizontal-single">
         <div class="horizontal-single__frame img_lightbox">
           <a href data-lightbox="week06-1">
-            <img src="../../assets/images/week06/museum.jpg" />
+            <img v-lazy="'../../assets/images/week06/museum.jpg'" />
           </a>
         </div>
         <div class="horizontal-single__annotation">The ArtScience Museum.</div>
@@ -36,12 +36,12 @@
         <div class="desktop-img horizontal-double">
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week06-2">
-              <img src="../../assets/images/week06/art1.jpg" />
+              <img v-lazy="'../../assets/images/week06/art1.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week06-2">
-              <img src="../../assets/images/week06/art2.jpg" />
+              <img v-lazy="'../../assets/images/week06/art2.jpg'" />
             </a>
           </div>
           <div
@@ -51,10 +51,10 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week06/art1.jpg" />
+              <img v-lazy="'../../assets/images/week06/art1.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week06/art2.jpg" />
+              <img v-lazy="'../../assets/images/week06/art2.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -70,7 +70,7 @@
 
 <script>
 export default {
-  name: "Week06"
+  name: "Week06",
 };
 </script>
 

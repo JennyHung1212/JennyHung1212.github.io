@@ -3,7 +3,7 @@
     <div class="content__title">
       Explore Every Corner in Singapore —— Part 1
       <img
-        src="../../assets/images/vertical_bars_sg.png"
+        v-lazy="'../../assets/images/vertical_bars_sg.png'"
       />
     </div>
     <div class="content__date">2019/04/15 ~ 2019/04/21</div>
@@ -15,12 +15,12 @@
         <div class="desktop-img horizontal-double">
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week13-1">
-              <img src="../../assets/images/week13/forest.jpg" />
+              <img v-lazy="'../../assets/images/week13/forest.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week13-1">
-              <img src="../../assets/images/week13/bandstand.jpg" />
+              <img v-lazy="'../../assets/images/week13/bandstand.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__annotation">1) The Evolution Garden. 2) The Bandstand.</div>
@@ -28,10 +28,10 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week13/forest.jpg" />
+              <img v-lazy="'../../assets/images/week13/forest.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week13/bandstand.jpg" />
+              <img v-lazy="'../../assets/images/week13/bandstand.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -45,12 +45,12 @@
         <div class="desktop-img horizontal-double">
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week13-2">
-              <img src="../../assets/images/week13/gallery.jpg" />
+              <img v-lazy="'../../assets/images/week13/gallery.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week13-2">
-              <img src="../../assets/images/week13/city.jpg" />
+              <img v-lazy="'../../assets/images/week13/city.jpg'" />
             </a>
           </div>
           <div
@@ -60,10 +60,10 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week13/gallery.jpg" />
+              <img v-lazy="'../../assets/images/week13/gallery.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week13/city.jpg" />
+              <img v-lazy="'../../assets/images/week13/city.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -76,7 +76,7 @@
       <div class="content__content--image horizontal-single">
         <div class="horizontal-single__frame img_lightbox">
           <a href data-lightbox="week13-3">
-            <img src="../../assets/images/week13/houses.jpg" />
+            <img v-lazy="'../../assets/images/week13/houses.jpg'" />
           </a>
         </div>
         <div
@@ -97,7 +97,7 @@
             style="margin-bottom: 5px"
           >
             <a href data-lightbox="week13-4">
-              <img src="../../assets/images/week13/food.jpg" />
+              <img v-lazy="'../../assets/images/week13/food.jpg'" />
             </a>
           </div>
           <div
@@ -105,17 +105,17 @@
             style="margin-bottom: 5px"
           >
             <a href data-lightbox="week13-4">
-              <img src="../../assets/images/week13/yellow.jpg" />
+              <img v-lazy="'../../assets/images/week13/yellow.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week13-4">
-              <img src="../../assets/images/week13/breakfast.jpg" />
+              <img v-lazy="'../../assets/images/week13/breakfast.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week13-4">
-              <img src="../../assets/images/week13/fivestar.jpg" />
+              <img v-lazy="'../../assets/images/week13/fivestar.jpg'" />
             </a>
           </div>
           <div
@@ -125,16 +125,16 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week13/food.jpg" />
+              <img v-lazy="'../../assets/images/week13/food.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week13/yellow.jpg" />
+              <img v-lazy="'../../assets/images/week13/yellow.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week13/breakfast.jpg" />
+              <img v-lazy="'../../assets/images/week13/breakfast.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week13/fivestar.jpg" />
+              <img v-lazy="'../../assets/images/week13/fivestar.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -147,7 +147,7 @@
 
 <script>
 export default {
-  name: "Week13"
+  name: "Week13",
 };
 </script>
 

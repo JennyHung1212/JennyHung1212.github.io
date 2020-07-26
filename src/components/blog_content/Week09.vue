@@ -2,7 +2,7 @@
   <div id="sg-week-09" class="content">
     <div class="content__title">
       A Day in Nature - The TreeTop Walk
-      <img src="../../assets/images/vertical_bars_sg.png" />
+      <img v-lazy="'../../assets/images/vertical_bars_sg.png'" />
     </div>
     <div class="content__date">2019/03/18 ~ 2019/03/24</div>
     <div class="content__content">
@@ -18,7 +18,7 @@
             style="margin-bottom: 5px"
           >
             <a href data-lightbox="week09-1">
-              <img src="../../assets/images/week09/lake.jpg" />
+              <img v-lazy="'../../assets/images/week09/lake.jpg'" />
             </a>
           </div>
           <div
@@ -26,17 +26,17 @@
             style="margin-bottom: 5px"
           >
             <a href data-lightbox="week09-1">
-              <img src="../../assets/images/week09/sign.jpg" />
+              <img v-lazy="'../../assets/images/week09/sign.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week09-1">
-              <img src="../../assets/images/week09/trail.jpg" />
+              <img v-lazy="'../../assets/images/week09/trail.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week09-1">
-              <img src="../../assets/images/week09/ant.jpg" />
+              <img v-lazy="'../../assets/images/week09/ant.jpg'" />
             </a>
           </div>
           <div
@@ -46,16 +46,16 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week09/lake.jpg" />
+              <img v-lazy="'../../assets/images/week09/lake.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week09/sign.jpg" />
+              <img v-lazy="'../../assets/images/week09/sign.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week09/trail.jpg" />
+              <img v-lazy="'../../assets/images/week09/trail.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week09/ant.jpg" />
+              <img v-lazy="'../../assets/images/week09/ant.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -68,7 +68,7 @@
       <div class="content__content--image horizontal-single">
         <div class="horizontal-single__frame img_lightbox">
           <a href data-lightbox="week09-2">
-            <img src="../../assets/images/week09/treetop.jpg" />
+            <img v-lazy="'../../assets/images/week09/treetop.jpg'" />
           </a>
         </div>
         <div class="horizontal-single__annotation">The TreeTop Walk.</div>
@@ -80,12 +80,12 @@
         <div class="desktop-img horizontal-double">
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week09-3">
-              <img src="../../assets/images/week09/rojak.jpg" />
+              <img v-lazy="'../../assets/images/week09/rojak.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week09-3">
-              <img src="../../assets/images/week09/indian.jpg" />
+              <img v-lazy="'../../assets/images/week09/indian.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__annotation">1) Rojak. 2) Indian dish.</div>
@@ -93,10 +93,10 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week09/rojak.jpg" />
+              <img v-lazy="'../../assets/images/week09/rojak.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week09/indian.jpg" />
+              <img v-lazy="'../../assets/images/week09/indian.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -112,7 +112,7 @@
 
 <script>
 export default {
-  name: "Week09"
+  name: "Week09",
 };
 </script>
 

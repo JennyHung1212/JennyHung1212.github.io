@@ -1,12 +1,11 @@
 module.exports = {
-    rules: {
-        'no-console': 'off',
-    },
-    root: true,
-	parserOptions: {
-	    sourceType: 'module'
-	},
-	plugins: [
-	    'html'
-	],
+  rules: {
+    "no-console": "off",
+  },
+  root: true,
+  parserOptions: {
+    sourceType: "module",
+  },
+  plugins: ["html"],
+  parser: "babel-eslint",
 };

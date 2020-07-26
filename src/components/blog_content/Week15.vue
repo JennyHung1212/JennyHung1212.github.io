@@ -2,7 +2,7 @@
   <div id="sg-week-15" class="content">
     <div class="content__title">
       Last Week in Singapore!
-      <img src="../../assets/images/vertical_bars_sg.png" />
+      <img v-lazy="'../../assets/images/vertical_bars_sg.png'" />
     </div>
     <div class="content__date">2019/04/29 ~ 2019/05/05</div>
     <div class="content__content">
@@ -32,7 +32,7 @@
             style="margin-bottom: 5px"
           >
             <a href data-lightbox="week15-1">
-              <img src="../../assets/images/week15/jetty.jpg" />
+              <img v-lazy="'../../assets/images/week15/jetty.jpg'" />
             </a>
           </div>
           <div
@@ -40,17 +40,17 @@
             style="margin-bottom: 5px"
           >
             <a href data-lightbox="week15-1">
-              <img src="../../assets/images/week15/bike.jpg" />
+              <img v-lazy="'../../assets/images/week15/bike.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week15-1">
-              <img src="../../assets/images/week15/big_laksa.jpg" />
+              <img v-lazy="'../../assets/images/week15/big_laksa.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week15-1">
-              <img src="../../assets/images/week15/car.jpg" />
+              <img v-lazy="'../../assets/images/week15/car.jpg'" />
             </a>
           </div>
           <div
@@ -60,16 +60,16 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week15/jetty.jpg" />
+              <img v-lazy="'../../assets/images/week15/jetty.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week15/bike.jpg" />
+              <img v-lazy="'../../assets/images/week15/bike.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week15/big_laksa.jpg" />
+              <img v-lazy="'../../assets/images/week15/big_laksa.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week15/car.jpg" />
+              <img v-lazy="'../../assets/images/week15/car.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -83,12 +83,12 @@
         <div class="desktop-img horizontal-double">
           <div class="horizontal-double__frame1 inline-block img_lightbox">
             <a href data-lightbox="week15-2">
-              <img src="../../assets/images/week15/curtis.jpg" />
+              <img v-lazy="'../../assets/images/week15/curtis.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__frame2 inline-block img_lightbox">
             <a href data-lightbox="week15-2">
-              <img src="../../assets/images/week15/langur.jpg" />
+              <img v-lazy="'../../assets/images/week15/langur.jpg'" />
             </a>
           </div>
           <div class="horizontal-double__annotation">1) The Curtis Crest. 2) The Langur Way.</div>
@@ -96,10 +96,10 @@
         <div class="mobile-img swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="../../assets/images/week15/curtis.jpg" />
+              <img v-lazy="'../../assets/images/week15/curtis.jpg'" />
             </div>
             <div class="swiper-slide">
-              <img src="../../assets/images/week15/langur.jpg" />
+              <img v-lazy="'../../assets/images/week15/langur.jpg'" />
             </div>
           </div>
           <div class="swiper-button-next"></div>
@@ -115,7 +115,7 @@
       <div class="content__content--image horizontal-single">
         <div class="horizontal-single__frame img_lightbox">
           <a href data-lightbox="week15-3">
-            <img src="../../assets/images/week15/SUTD.jpg" />
+            <img v-lazy="'../../assets/images/week15/SUTD.jpg'" />
           </a>
         </div>
         <div class="horizontal-single__annotation">Singapore University of Technology and Design.</div>
@@ -126,7 +126,7 @@
 
 <script>
 export default {
-  name: "Week15"
+  name: "Week15",
 };
 </script>
 
