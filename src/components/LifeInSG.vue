@@ -79,7 +79,6 @@ export default {
   methods: {
     handleRoute(index) {
       this.$router.push({ name: `week${index + 1}` });
-      console.log(this.$router.currentRoute);
     },
   },
 };

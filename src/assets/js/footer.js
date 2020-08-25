@@ -11,7 +11,6 @@ export function progress_bar() {
           .height() -
         ($(".ant-row").height() - 50);
       let scrolled = (contentScrollTop / height) * 100;
-      console.log(contentScrollTop, height);
       $(".footer-container__progress--bar").css("width", scrolled + "%");
     });
   });
